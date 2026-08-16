@@ -12,7 +12,8 @@ export default extendConfig(baseConfig, () => {
     },
     plugins: [
       staticAdapter({
-        origin: "https://mariojp.github.io",
+        origin: "https://mariojp.com.br",
+        exclude: ["/article/*"],
       }),
     ],
   };
