@@ -1,0 +1,1 @@
+import{d as _,x as m,y as s,a as o}from"./q-fe31e12c.js";import{u as r}from"./q-c5f185af.js";const c="PSC_THEME",E="dark",d=()=>{const[t,a]=r(c,E),e=_({theme:t.value});return m("load",s(()=>o(()=>import("./q-77c5e291.js"),[]),"s_7RJv1KE0o7E",[e,t])),{theme:e,setTheme:s(()=>o(()=>import("./q-77c5e291.js"),[]),"s_iXhD0AqoAtc",[a,e])}};export{E as d,d as u};

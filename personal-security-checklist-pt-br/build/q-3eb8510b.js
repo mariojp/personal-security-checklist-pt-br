@@ -1,0 +1,1 @@
+import{V as t,y as e,a as i}from"./q-fe31e12c.js";const a=t(e(()=>i(()=>import("./q-db3bd24a.js"),[]),"s_3ZZlyOEjbxY")),r={title:"About | Digital Defense",meta:[{name:"description",content:"This project aims to give you practical guidance on how to improve your digital security, and protect your privacy online"}]};export{a as default,r as head};
