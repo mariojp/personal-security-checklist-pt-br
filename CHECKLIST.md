@@ -6,487 +6,483 @@
 
 <p align="center"><img src="https://i.ibb.co/rGQK71g/personal-security-checklist-6.png" /></p>
 
-*<p align="center">A curated checklist of tips to protect your digital security and privacy</p>*
+*<p align="center">Uma lista curada de dicas para proteger sua segurança e privacidade digital</p>*
 
-### Contents
+### Conteúdo
 
-[<img src="https://i.ibb.co/XbyGTrP/1-authentication-2-36x36.png" width="28" height="28" /> Authentication](#authentication)<br>
-[<img src="https://i.ibb.co/8KMrdbX/2-internet-36x36.png" width="28" height="28" /> Browsing the Web](#web-browsing)<br>
+[<img src="https://i.ibb.co/XbyGTrP/1-authentication-2-36x36.png" width="28" height="28" /> Autenticação](#authentication)<br>
+[<img src="https://i.ibb.co/8KMrdbX/2-internet-36x36.png" width="28" height="28" /> Navegação na Web](#web-browsing)<br>
 [<img src="https://i.ibb.co/7NrXW3L/5-email-36x36.png" width="28" height="28" /> Email](#emails)<br>
-[<img src="https://i.ibb.co/DrWJBT9/13-messaging-36x36.png" width="28" height="28" /> Secure Messaging](#secure-messaging)<br>
-[<img src="https://i.ibb.co/GFYyXMd/6-social-media-36x36.png" width="28" height="28" /> Social Media](#social-media)<br>
-[<img src="https://i.ibb.co/0VTZQpH/3-networking-36x36.png" width="28" height="28" /> Networks](#networking)<br>
-[<img src="https://i.ibb.co/F3WwqsV/7-phones-36x36.png" width="28" height="28" /> Mobile Phones](#mobile-devices)<br>
-[<img src="https://i.ibb.co/ZftcgJq/8-computers-36x36.png" width="28" height="28" /> Personal Computers](#personal-computers)<br>
-[<img src="https://i.ibb.co/b2S9372/9-smart-home-36x36.png" width="28" height="28" /> Smart Home](#smart-home)<br>
-[<img src="https://i.ibb.co/4JTqL5y/12-finance-36x36.png" width="28" height="28" /> Personal Finance](#personal-finance)<br>
-[<img src="https://i.ibb.co/KVPV1Lk/10-human-36x36.png" width="28" height="28" /> Human Aspect](#sensible-computing)<br>
-[<img src="https://i.ibb.co/9NbhBww/11-physical-36x36.png" width="28" height="28" /> Physical Security](#physical-security)<br>
+[<img src="https://i.ibb.co/DrWJBT9/13-messaging-36x36.png" width="28" height="28" /> Mensagens Seguras](#secure-messaging)<br>
+[<img src="https://i.ibb.co/GFYyXMd/6-social-media-36x36.png" width="28" height="28" /> Redes Sociais](#social-media)<br>
+[<img src="https://i.ibb.co/0VTZQpH/3-networking-36x36.png" width="28" height="28" /> Redes](#networking)<br>
+[<img src="https://i.ibb.co/F3WwqsV/7-phones-36x36.png" width="28" height="28" /> Telefones Celulares](#mobile-devices)<br>
+[<img src="https://i.ibb.co/ZftcgJq/8-computers-36x36.png" width="28" height="28" /> Computadores Pessoais](#personal-computers)<br>
+[<img src="https://i.ibb.co/b2S9372/9-smart-home-36x36.png" width="28" height="28" /> Casa Inteligente](#smart-home)<br>
+[<img src="https://i.ibb.co/4JTqL5y/12-finance-36x36.png" width="28" height="28" /> Finanças Pessoais](#personal-finance)<br>
+[<img src="https://i.ibb.co/KVPV1Lk/10-human-36x36.png" width="28" height="28" /> Aspecto Humano](#sensible-computing)<br>
+[<img src="https://i.ibb.co/9NbhBww/11-physical-36x36.png" width="28" height="28" /> Segurança Física](#physical-security)<br>
 
-Too long? 🦒 See the [TLDR version](https://github.com/Lissy93/personal-security-checklist/blob/HEAD/articles/2_TLDR_Short_List.md) instead.
+Muito longo? 🦒 Veja a [versão TLDR](https://github.com/Lissy93/personal-security-checklist/blob/HEAD/articles/2_TLDR_Short_List.md).
 
-For a list of privacy-respecting software, check out [Awesome-Privacy](https://github.com/lissy93/awesome-privacy).
+Para uma lista de softwares que respeitam a privacidade, confira [Awesome-Privacy](https://github.com/lissy93/awesome-privacy).
 
-A mirror of this repo is available at [codeberg.org/alicia/personal-security-checklist](https://codeberg.org/alicia/personal-security-checklist).
+Um espelho deste repositório está disponível em [codeberg.org/alicia/personal-security-checklist](https://codeberg.org/alicia/personal-security-checklist).
 
 ---
 
 <!-- checklist-start -->
-## Authentication
+## Autenticação
 
-Most reported data breaches are caused by the use of weak, default, or stolen passwords (according to [this Verizon report](http://www.verizonenterprise.com/resources/reports/rp_dbir-2016-executive-summary_xg_en.pdf)). Use long, strong, and unique passwords, manage them in a secure password manager, enable 2-factor authentication, keep on top of breaches, and take care while logging into your accounts.
+A maioria das violações de dados reportadas é causada pelo uso de senhas fracas, padrão ou roubadas (de acordo com [este relatório da Verizon](http://www.verizonenterprise.com/resources/reports/rp_dbir-2016-executive-summary_xg_en.pdf)). Use senhas longas, fortes e únicas, gerencie-as em um gerenciador de senhas seguro, habilite autenticação de 2 fatores, acompanhe vazamentos e tenha cuidado ao entrar em suas contas.
 
-**Security** | **Priority** | **Details and Hints**
+**Segurança** | **Prioridade** | **Detalhes e dicas**
 --- | --- | ---
-**Use a Strong Password** | Essential | If your password is too short, or contains dictionary words, places, or names, then it can be easily cracked through brute force or guessed by someone. The easiest way to make a strong password is by making it long (12+ characters) — consider using a 'passphrase' made up of many words. Alternatively, use a password generator to create a long, strong random password. Have a play with [Security.org's How Secure Is My Password?](https://security.org/how-secure-is-my-password/), to get an idea of how quickly common passwords can be cracked. Read more about creating strong passwords: [securityinabox.org](https://securityinabox.org/en/passwords/passwords/).
-**Don't Reuse Passwords** | Essential | If someone were to reuse a password and one site they had an account with suffered a leak, then a criminal could easily gain unauthorized access to their other accounts. This is usually done through large-scale automated login requests, and it is called Credential Stuffing. Unfortunately, this is all too common, but it's simple to protect against — use a different password for each of your online accounts.
-**Use a Secure Password Manager** | Essential | For most people, it is going to be near-impossible to remember hundreds of strong and unique passwords. A password manager is an application that generates, stores, and auto-fills your login credentials for you. All your passwords will be encrypted against 1 master password (which you must remember, and it should be very strong). Most password managers have browser extensions and mobile apps, so whatever device you are on, your passwords can be auto-filled. A good all-rounder is [Bitwarden](https://awesome-privacy.xyz/essentials/password-managers/bitwarden), or see [Recommended Password Managers](https://awesome-privacy.xyz/essentials/password-managers).
-**Avoid Sharing Passwords** | Essential | While there may be times that you need to share access to an account with another person, you should generally avoid doing this because it makes it easier for the account to become compromised. If you absolutely do need to share a password — for example, when working on a team with a shared account — this should be done via features built into a password manager.
-**Enable 2-Factor Authentication** | Essential | 2FA is where you must provide both something you know (a password) and something you have (such as a code on your phone) to log in. This means that if anyone has your password (e.g., through phishing, malware, or a data breach), they will not be able to log into your account. It's easy to get started, download [an authenticator app](https://github.com/Lissy93/awesome-privacy#2-factor-authentication) onto your phone, and then go to your account security settings and follow the steps to enable 2FA. Next time you log in on a new device, you will be prompted for the code that is displayed in the app on your phone (it works without internet, and the code usually changes every 30 seconds).
-**Keep Backup Codes Safe** | Essential | When you enable multi-factor authentication, you will usually be given several codes that you can use if your 2FA method is lost, broken, or unavailable. Keep these codes somewhere safe to prevent loss or unauthorized access. You should store these on paper or in a safe place on disk (e.g., in offline storage or an encrypted file/drive). Don't store these in your password manager as 2FA sources and passwords should be kept separately.
-**Sign Up for Breach Alerts** | Optional | After a website suffers a significant data breach, the leaked data often ends up on the internet. Several websites collect these leaked records and allow you to search your email address to check if you are in any of their lists. [Firefox Monitor](https://monitor.firefox.com), [Have I Been Pwned](https://haveibeenpwned.com), and [DeHashed](https://dehashed.com) allow you to sign up for monitoring, where they will notify you if your email address appears in any new data sets. It is useful to know as soon as possible when this happens so that you can change your passwords for the affected accounts. [Have i been pwned](https://awesome-privacy.xyz/security-tools/online-tools/have-i-been-pwned) also has domain-wide notification, where you can receive alerts if any email addresses under your entire domain appear (useful if you use aliases for [anonymous forwarding](https://github.com/Lissy93/awesome-privacy#anonymous-mail-forwarding)).
-**Shield your Password/PIN** | Optional | When typing your password in public places, ensure you are not in direct line of sight of a CCTV camera and that no one can see over your shoulder. Cover your password or pin code while you type, and do not reveal any plain text passwords on your screen.
-**Update Critical Passwords Periodically** | Optional | Database leaks and breaches are common, and, likely, several of your passwords are already somewhere online. Occasionally updating passwords of security-critical accounts can help mitigate this. But providing that all your passwords are long, strong, and unique, there is no need to do this too often — annually should be sufficient. Enforcing mandatory password changes within organisations is [no longer recommended](https://duo.com/decipher/microsoft-will-no-longer-recommend-forcing-periodic-password-changes), as it encourages colleagues to select weaker passwords.
-**Don’t Save your Password in Browsers** | Optional | Most modern browsers offer to save your credentials when you log into a site. Don’t allow this, as they are not always encrypted and could allow someone to gain access to your accounts. Instead, use a dedicated password manager to store (and auto-fill) your passwords.
-**Avoid Logging In on Someone Else’s Device** | Optional | Avoid logging in on other people's computers since you can't be sure their system is clean. Be especially cautious of public machines, as malware and tracking arr more common here. Using someone else's device is especially dangerous with critical accounts like online banking. When using someone else's machine, ensure that you're in a private/incognito session (Use Ctrl+Shift+N/ Cmd+Shift+N). This will request the browser to not save your credentials, cookies, and browsing history.
-**Avoid Password Hints** | Optional | Some sites allow you to set password hints. Often, it is very easy to guess answers. In cases where password hints are mandatory, use random answers and record them in your password manager (`Name of the first school: 6D-02-8B-!a-E8-8F-81`).
-**Never Answer Online Security Questions Truthfully** | Optional | If a site asks security questions (such as place of birth, mother's maiden name, or first car, etc.), don't provide real answers. It is a trivial task for hackers to find out this information online or through social engineering. Instead, create a fictitious answer, and store it inside your password manager. Using real words is better than random characters, as [explained here](https://news.ycombinator.com/item?id=29244870).
-**Don’t Use a 4-digit PIN** | Optional | Don’t use a short PIN to access your smartphone or computer. Instead, use a text password or a much longer PIN. Numeric passphrases are easy to crack (A 4-digit pin has 10,000 combinations, compared to 7.4 million for a 4-character alpha-numeric code).
-**Avoid Using SMS for 2FA** | Optional | When enabling multi-factor authentication, opt for app-based codes or a hardware token if supported. SMS is susceptible to several common threats, such as [SIM-swapping](https://www.maketecheasier.com/sim-card-hijacking) and [interception](https://secure-voice.com/ss7_attacks). There's also no guarantee of how securely your phone number will be stored or what else it will be used for. From a practical point of view, SMS will only work when you have a signal and can be slow. If a website or service requires the usage of an SMS number for recovery, consider purchasing a second pre-paid phone number only used for account recovery for these instances.
-**Avoid Using your PM to Generate OTPs** | Advanced | Many password managers are also able to generate 2FA codes. It is best not to use your primary password manager as your 2FA authenticator as well, since it would become a single point of failure if compromised. Instead, use a dedicated [authenticator app](https://github.com/Lissy93/awesome-privacy#2-factor-authentication) on your phone or laptop.
-**Avoid Face Unlock** | Advanced | Most phones and laptops offer a facial recognition authentication feature, using the camera to compare a snapshot of your face with a stored hash. It may be very convenient, but there are numerous ways to [fool it](https://www.forbes.com/sites/jvchamary/2017/09/18/security-apple-face-id-iphone-x/) and gain access to the device through digital photos and reconstructions from CCTV footage. Unlike your password, there are likely photos of your face on the internet and videos recorded by surveillance cameras.
-**Watch Out for Keyloggers** | Advanced | A hardware [keylogger](https://en.wikipedia.org/wiki/Hardware_keylogger) is a physical device planted between your keyboard and the USB port, which intercepts all keystrokes and sometimes relays data to a remote server. It gives a hacker access to everything typed, including passwords. The best way to stay protected is just by checking your USB connection after your PC has been unattended. It is also possible for keyloggers to be planted inside the keyboard housing, so look for any signs that the case has been tampered with, and consider bringing your own keyboard to work. Data typed on a virtual keyboard, pasted from the clipboard, or auto-filled by a password manager can not be intercepted by a hardware keylogger.
-**Consider a Hardware Token** | Advanced | A U2F/FIDO2 security key is a USB (or NFC) device that you insert while logging in to an online service to verify your identity instead of entering a OTP from your authenticator. [SoloKey](https://solokeys.com) and [NitroKey](https://www.nitrokey.com) are examples of such keys. They bring with them several security benefits. Since the browser communicates directly with the device, it cannot be fooled as to which host is requesting
-**Use Passkeys Where Available** | Recommended | Passkeys (also known as FIDO2 WebAuthn) are a passwordless authentication method that is more secure and convenient than traditional passwords. They use your devices biometric authentication (fingerprint, face ID) or a PIN to log in, and are resistant to phishing attacks. Many major services now support passkeys including Google, Apple, Microsoft, and GitHub. Consider enabling passkeys for accounts that offer them as an alternative to passwords or as an additional 2FA method. authentication because the TLS certificate is checked. [This post](https://security.stackexchange.com/a/71704) is a good explanation of the security of using FIDO U2F tokens. Of course, it is important to store the physical key somewhere safe or keep it on your person. Some online accounts allow for several methods of 2FA to be enabled.
-**Consider Offline Password Manager** | Advanced | For increased security, an encrypted offline password manager will give you full control over your data. [KeePass](https://awesome-privacy.xyz/essentials/password-managers/keepass) is a popular choice, with lots of [plugins](https://[KeePass](https://awesome-privacy.xyz/essentials/password-managers/keepass).info/plugins.html) and community forks with additional compatibility and functionality. Popular clients include: [KeePassXC](https://keepassxc.org) (desktop), [KeePassDX](https://www.keepassdx.com) (Android) and [StrongBox](https://apps.apple.com/us/app/strongbox-password-safe/id897283731) (iOS). The drawback being that it may be slightly less convenient for some, and it will be up to you to back it up and store it securely.
-**Consider Unique Usernames** | Advanced | Having different passwords for each account is a good first step, but if you also use a unique username, email, or phone number to log in, then it will be significantly harder for anyone trying to gain unauthorised access. The easiest method for multiple emails, is using auto-generated aliases for anonymous mail forwarding. This is where [anything]@yourdomain.com will arrive in your inbox, allowing you to use a different email for each account (see [Mail Alias Providers](https://github.com/Lissy93/awesome-privacy#mail-forwarding)). Usernames are easier since you can use your password manager to generate, store, and auto-fill these. Virtual phone numbers can be generated through your VOIP provider.
+**Use uma senha forte** | Essencial | Se a sua senha for muito curta, ou contiver palavras de dicionário, lugares ou nomes, ela poderá ser facilmente quebrada por força bruta ou adivinhada por alguém. A forma mais fácil de criar uma senha forte é torná-la longa (12+ caracteres) — considere usar uma 'frase-senha' composta por várias palavras. Como alternativa, use um gerador de senhas para criar uma senha aleatória longa e forte. Teste o [How Secure Is My Password? do Security.org](https://security.org/how-secure-is-my-password/) para ter uma ideia de quão rapidamente senhas comuns podem ser quebradas. Leia mais sobre como criar senhas fortes: [securityinabox.org](https://securityinabox.org/en/passwords/passwords/).
+**Não reutilize senhas** | Essencial | Se alguém reutilizar uma senha e um site em que tinha conta sofrer um vazamento, um criminoso poderá obter acesso não autorizado às outras contas dessa pessoa com facilidade. Isso geralmente é feito por meio de solicitações automatizadas de login em larga escala e é chamado de Credential Stuffing. Infelizmente, isso é muito comum, mas é simples se proteger — use uma senha diferente para cada uma das suas contas online.
+**Use um gerenciador de senhas seguro** | Essencial | Para a maioria das pessoas, é quase impossível lembrar centenas de senhas fortes e únicas. Um gerenciador de senhas é um aplicativo que gera, armazena e preenche automaticamente suas credenciais de login. Todas as suas senhas serão criptografadas com base em 1 senha mestra (que você deve lembrar e que deve ser muito forte). A maioria dos gerenciadores de senhas tem extensões de navegador e aplicativos móveis, então, qualquer que seja o dispositivo em que você esteja, suas senhas podem ser preenchidas automaticamente. Uma boa opção geral é o [Bitwarden](https://awesome-privacy.xyz/essentials/password-managers/bitwarden), ou veja [Gerenciadores de Senhas Recomendados](https://awesome-privacy.xyz/essentials/password-managers).
+**Evite compartilhar senhas** | Essencial | Embora possa haver momentos em que você precise compartilhar o acesso a uma conta com outra pessoa, em geral você deve evitar isso, porque torna mais fácil a conta ser comprometida. Se você realmente precisar compartilhar uma senha — por exemplo, ao trabalhar em equipe com uma conta compartilhada — isso deve ser feito por meio de recursos internos de um gerenciador de senhas.
+**Habilite a autenticação de 2 fatores** | Essencial | 2FA é quando você precisa fornecer algo que sabe (uma senha) e algo que possui (como um código no seu telefone) para entrar. Isso significa que, se alguém tiver sua senha (por exemplo, por phishing, malware ou vazamento de dados), não conseguirá acessar sua conta. É fácil começar: baixe [um aplicativo autenticador](https://github.com/Lissy93/awesome-privacy#2-factor-authentication) no seu telefone, depois vá até as configurações de segurança da sua conta e siga as etapas para habilitar 2FA. Na próxima vez que você entrar em um novo dispositivo, será solicitado o código exibido no aplicativo do seu telefone (ele funciona sem internet e o código geralmente muda a cada 30 segundos).
+**Mantenha os códigos de backup em segurança** | Essencial | Quando você habilita a autenticação multifator, normalmente recebe vários códigos que pode usar caso seu método de 2FA seja perdido, quebrado ou fique indisponível. Guarde esses códigos em algum lugar seguro para evitar perda ou acesso não autorizado. Você deve armazená-los em papel ou em um local seguro em disco (por exemplo, armazenamento offline ou um arquivo/unidade criptografado). Não armazene isso no seu gerenciador de senhas, pois as fontes de 2FA e as senhas devem ser mantidas separadas.
+**Cadastre-se para receber alertas de vazamento** | Opcional | Depois que um site sofre uma violação significativa de dados, os dados vazados frequentemente acabam na internet. Vários sites coletam esses registros vazados e permitem que você pesquise seu endereço de email para verificar se está em alguma de suas listas. [Firefox Monitor](https://monitor.firefox.com), [Have I Been Pwned](https://haveibeenpwned.com) e [DeHashed](https://dehashed.com) permitem que você se cadastre para monitoramento, no qual será notificado se seu endereço de email aparecer em novos conjuntos de dados. É útil saber disso o quanto antes para que você possa trocar as senhas das contas afetadas. [Have i been pwned](https://awesome-privacy.xyz/security-tools/online-tools/have-i-been-pwned) também tem notificação para o domínio inteiro, em que você pode receber alertas se algum endereço de email sob todo o seu domínio aparecer (útil se você usa aliases para [encaminhamento anônimo](https://github.com/Lissy93/awesome-privacy#anonymous-mail-forwarding)).
+**Proteja sua senha/PIN** | Opcional | Ao digitar sua senha em locais públicos, certifique-se de não estar diretamente na linha de visão de uma câmera de CCTV e de que ninguém possa olhar por cima do seu ombro. Cubra sua senha ou código PIN enquanto digita e não revele senhas em texto puro na sua tela.
+**Atualize periodicamente senhas críticas** | Opcional | Vazamentos e violações de bancos de dados são comuns e, provavelmente, várias de suas senhas já estão em algum lugar online. Atualizar ocasionalmente as senhas de contas críticas para a segurança pode ajudar a mitigar isso. Mas, desde que todas as suas senhas sejam longas, fortes e únicas, não há necessidade de fazer isso com muita frequência — uma vez por ano deve ser suficiente. Exigir trocas obrigatórias de senha em organizações [não é mais recomendado](https://duo.com/decipher/microsoft-will-no-longer-recommend-forcing-periodic-password-changes), pois incentiva colegas a escolherem senhas mais fracas.
+**Não salve sua senha nos navegadores** | Opcional | A maioria dos navegadores modernos oferece salvar suas credenciais quando você entra em um site. Não permita isso, pois elas nem sempre são criptografadas e podem permitir que alguém acesse suas contas. Em vez disso, use um gerenciador de senhas dedicado para armazenar (e preencher automaticamente) suas senhas.
+**Evite entrar em dispositivos de outras pessoas** | Opcional | Evite fazer login em computadores de outras pessoas, pois você não pode ter certeza de que o sistema delas está limpo. Tenha atenção especial com máquinas públicas, já que malware e rastreamento são mais comuns nelas. Usar o dispositivo de outra pessoa é especialmente perigoso com contas críticas, como banco online. Ao usar a máquina de outra pessoa, certifique-se de estar em uma sessão privada/anônima (Use Ctrl+Shift+N/ Cmd+Shift+N). Isso solicitará ao navegador que não salve suas credenciais, cookies e histórico de navegação.
+**Evite dicas de senha** | Opcional | Alguns sites permitem que você defina dicas de senha. Muitas vezes, é muito fácil adivinhar as respostas. Nos casos em que dicas de senha forem obrigatórias, use respostas aleatórias e registre-as no seu gerenciador de senhas (`Nome da primeira escola: 6D-02-8B-!a-E8-8F-81`).
+**Nunca responda com sinceridade a perguntas de segurança online** | Opcional | Se um site fizer perguntas de segurança (como local de nascimento, nome de solteira da mãe ou primeiro carro etc.), não forneça respostas reais. É uma tarefa trivial para hackers descobrir essas informações online ou por engenharia social. Em vez disso, crie uma resposta fictícia e armazene-a dentro do seu gerenciador de senhas. Usar palavras reais é melhor do que caracteres aleatórios, como [explicado aqui](https://news.ycombinator.com/item?id=29244870).
+**Não use um PIN de 4 dígitos** | Opcional | Não use um PIN curto para acessar seu smartphone ou computador. Em vez disso, use uma senha de texto ou um PIN muito mais longo. Frases-senha numéricas são fáceis de quebrar (um PIN de 4 dígitos tem 10.000 combinações, em comparação com 7,4 milhões para um código alfanumérico de 4 caracteres).
+**Evite usar SMS para 2FA** | Opcional | Ao habilitar a autenticação multifator, prefira códigos baseados em aplicativo ou um token de hardware, se houver suporte. SMS é suscetível a várias ameaças comuns, como [SIM-swapping](https://www.maketecheasier.com/sim-card-hijacking) e [interceptação](https://secure-voice.com/ss7_attacks). Também não há garantia de quão seguramente seu número de telefone será armazenado ou para que mais ele será usado. Do ponto de vista prático, SMS só funciona quando você tem sinal e pode ser lento. Se um site ou serviço exigir o uso de um número de SMS para recuperação, considere comprar um segundo número de telefone pré-pago usado apenas para recuperação de conta nesses casos.
+**Evite usar seu gerenciador de senhas para gerar OTPs** | Avançado | Muitos gerenciadores de senhas também conseguem gerar códigos de 2FA. É melhor não usar seu gerenciador de senhas principal como autenticador de 2FA também, já que ele se tornaria um ponto único de falha se fosse comprometido. Em vez disso, use [um aplicativo autenticador](https://github.com/Lissy93/awesome-privacy#2-factor-authentication) dedicado no seu telefone ou laptop.
+**Evite desbloqueio facial** | Avançado | A maioria dos telefones e laptops oferece um recurso de autenticação por reconhecimento facial, usando a câmera para comparar uma imagem do seu rosto com um hash armazenado. Pode ser muito conveniente, mas existem várias formas de [enganá-lo](https://www.forbes.com/sites/jvchamary/2017/09/18/security-apple-face-id-iphone-x/) e obter acesso ao dispositivo por meio de fotos digitais e reconstruções a partir de imagens de CCTV. Diferentemente da sua senha, provavelmente há fotos do seu rosto na internet e vídeos gravados por câmeras de vigilância.
+**Fique atento a keyloggers** | Avançado | Um [keylogger](https://en.wikipedia.org/wiki/Hardware_keylogger) de hardware é um dispositivo físico colocado entre o seu teclado e a porta USB, que intercepta todas as teclas digitadas e às vezes retransmite os dados para um servidor remoto. Isso dá a um hacker acesso a tudo o que foi digitado, incluindo senhas. A melhor forma de se manter protegido é verificar sua conexão USB depois que o seu PC ficou sem supervisão. Também é possível que keyloggers sejam instalados dentro da carcaça do teclado, então procure por quaisquer sinais de violação e considere levar seu próprio teclado ao trabalho. Dados digitados em um teclado virtual, colados da área de transferência ou preenchidos automaticamente por um gerenciador de senhas não podem ser interceptados por um keylogger de hardware.
+**Considere um token de hardware** | Avançado | Uma chave de segurança U2F/FIDO2 é um dispositivo USB (ou NFC) que você insere ao entrar em um serviço online para verificar sua identidade em vez de digitar um OTP do seu autenticador. [SoloKey](https://solokeys.com) e [NitroKey](https://www.nitrokey.com) são exemplos dessas chaves. Elas trazem vários benefícios de segurança. Como o navegador se comunica diretamente com o dispositivo, ele não pode ser enganado quanto a qual host está solicitando
+**Use passkeys quando disponíveis** | Recomendado | Passkeys (também conhecidas como FIDO2 WebAuthn) são um método de autenticação sem senha mais seguro e conveniente do que senhas tradicionais. Elas usam a autenticação biométrica do seu dispositivo (impressão digital, face ID) ou um PIN para fazer login e são resistentes a ataques de phishing. Muitos serviços importantes agora suportam passkeys, incluindo Google, Apple, Microsoft e GitHub. Considere habilitar passkeys para contas que as oferecem como alternativa a senhas ou como método adicional de 2FA. autenticação porque o certificado TLS é verificado. [Este post](https://security.stackexchange.com/a/71704) é uma boa explicação sobre a segurança do uso de tokens FIDO U2F. Claro, é importante guardar a chave física em algum lugar seguro ou mantê-la com você. Algumas contas online permitem habilitar vários métodos de 2FA.
+**Considere um gerenciador de senhas offline** | Avançado | Para maior segurança, um gerenciador de senhas offline e criptografado dará a você controle total sobre seus dados. [KeePass](https://awesome-privacy.xyz/essentials/password-managers/keepass) é uma escolha popular, com muitos [plugins](https://[KeePass](https://awesome-privacy.xyz/essentials/password-managers/keepass).info/plugins.html) e forks da comunidade com compatibilidade e funcionalidades adicionais. Clientes populares incluem: [KeePassXC](https://keepassxc.org) (desktop), [KeePassDX](https://www.keepassdx.com) (Android) e [StrongBox](https://apps.apple.com/us/app/strongbox-password-safe/id897283731) (iOS). A desvantagem é que pode ser um pouco menos conveniente para algumas pessoas, e caberá a você fazer backup e armazená-lo com segurança.
+**Considere nomes de usuário únicos** | Avançado | Ter senhas diferentes para cada conta é um bom primeiro passo, mas, se você também usar um nome de usuário, email ou número de telefone único para fazer login, será significativamente mais difícil para qualquer pessoa tentar obter acesso não autorizado. O método mais fácil para vários emails é usar aliases gerados automaticamente para encaminhamento anônimo de emails. É aí que [anything]@yourdomain.com chegará à sua caixa de entrada, permitindo que você use um email diferente para cada conta (veja [Provedores de Alias de Email](https://github.com/Lissy93/awesome-privacy#mail-forwarding)). Nomes de usuário são mais fáceis, já que você pode usar seu gerenciador de senhas para gerá-los, armazená-los e preenchê-los automaticamente. Números de telefone virtuais podem ser gerados pelo seu provedor VOIP.
 
-### Recommended Software
-- [Password Managers](https://awesome-privacy.xyz/essentials/password-managers)
-- [2-Factor Authentication](https://awesome-privacy.xyz/essentials/2-factor-authentication)
+### Software recomendado
+- [Gerenciadores de Senhas](https://awesome-privacy.xyz/essentials/password-managers)
+- [Autenticação de 2 Fatores](https://awesome-privacy.xyz/essentials/2-factor-authentication)
 
 
-## Web Browsing
+## Navegação na Web
 
-Most websites on the internet will use some form of tracking, often to gain insight into their users behaviour and preferences. This data can be incredibly detailed, and so is extremely valuable to corporations, governments and intellectual property thieves. Data breaches and leaks are common, and deanonymizing users web activity is often a trivial task.
+A maioria dos sites na internet usa alguma forma de rastreamento, muitas vezes para obter informações sobre o comportamento e as preferências de seus usuários. Esses dados podem ser incrivelmente detalhados e, por isso, são extremamente valiosos para corporações, governos e ladrões de propriedade intelectual. Violações e vazamentos de dados são comuns, e desanonimizar a atividade web dos usuários costuma ser uma tarefa trivial.
 
-There are two primary methods of tracking; stateful (cookie-based), and stateless (fingerprint-based). Cookies are small pieces of information, stored in your browser with a unique ID that is used to identify you. Browser fingerprinting is a highly accurate way to identify and track users wherever they go online. The information collected is quite comprehensive, and often includes browser details, OS, screen resolution, supported fonts, plugins, time zone, language and font preferences, and even hardware configurations.
+Existem dois métodos principais de rastreamento: com estado (baseado em cookies) e sem estado (baseado em fingerprint). Cookies são pequenos pedaços de informação armazenados no seu navegador com um ID único usado para identificá-lo. A impressão digital do navegador (browser fingerprinting) é uma forma altamente precisa de identificar e rastrear usuários onde quer que vão online. As informações coletadas são bastante abrangentes e frequentemente incluem detalhes do navegador, SO, resolução de tela, fontes suportadas, extensões, fuso horário, idioma e preferências de fonte, e até configurações de hardware.
 
-This section outlines the steps you can take, to be better protected from threats, minimise online tracking and improve privacy.
+Esta seção descreve as etapas que você pode seguir para estar melhor protegido contra ameaças, minimizar o rastreamento online e melhorar a privacidade.
 
-**Security** | **Priority** | **Details and Hints**
+**Segurança** | **Prioridade** | **Detalhes e dicas**
 --- | --- | ---
-**Block Ads** | Essential | Using an ad-blocker can help improve your privacy, by blocking the trackers that ads implement. [uBlock Origin](https://awesome-privacy.xyz/networking/ad-blockers/ublock-origin) is a very efficient and open source browser addon, developed by Raymond Hill. When 3rd-party ads are displayed on a webpage, they have the ability to track you, gathering personal information about you and your habits, which can then be sold, or used to show you more targeted ads, and some ads are plain malicious or fake. Blocking ads also makes pages load faster, uses less data and provides a less cluttered experience.
-**Ensure Website is Legitimate** | Basic | It may sound obvious, but when you logging into any online accounts, double check the URL is correct. Storing commonly visited sites in your bookmarks is a good way to ensure the URL is easy to find. When visiting new websites, look for common signs that it could be unsafe: Browser warnings, redirects, on-site spam and pop-ups. You can also check a website using a tool, such as: [Virus Total](https://awesome-privacy.xyz/security-tools/online-tools/virus-total), [IsLegitSite](https://www.islegitsite.com), [Google Safe Browsing Status](https://transparencyreport.google.com/safe-browsing/search) if you are unsure.
-**Watch out for Browser Malware** | Basic | Your system or browser can be compromised by spyware, miners, browser hijackers, malicious redirects, adware etc. You can usually stay protected, just by: ignoring pop-ups, be wary of what your clicking, don't proceed to a website if your browser warns you it may be malicious. Common signs of browser malware include: default search engine or homepage has been modified, toolbars, unfamiliar extensions or icons, significantly more ads, errors and pages loading much slower than usual. These articles from Heimdal explain [signs of browser malware](https://heimdalsecurity.com/blog/warning-signs-operating-system-infected-malware), [how browsers get infected](https://heimdalsecurity.com/blog/practical-online-protection-where-malware-hides) and [how to remove browser malware](https://heimdalsecurity.com/blog/malware-removal).
-**Use a Privacy-Respecting Browser** | Essential | [Firefox](https://awesome-privacy.xyz/essentials/browsers/firefox) (with a few tweaks) and [Brave](https://awesome-privacy.xyz/essentials/browsers/brave-browser) are secure, private-respecting browsers. Both are fast, open source, user-friendly and available on all major operating systems. Your browser has access to everything that you do online, so if possible, avoid Google Chrome, Edge and Safari as (without correct configuration) all three of them, collect usage data, call home and allow for invasive tracking. Firefox requires a few changes to achieve optimal security, for example - [arkenfox](https://github.com/arkenfox/user.js/wiki) or [12byte](https://12bytes.org/firefox-configuration-guide-for-privacy-freaks-and-performance-buffs/)'s user.js configs. See more: [Privacy Browsers](https://github.com/Lissy93/awesome-privacy#browsers).
-**Use a Private Search Engine** | Essential | Using a privacy-preserving, non-tracking search engine, will reduce risk that your search terms are not logged, or used against you. Consider [DuckDuckGo](https://awesome-privacy.xyz/essentials/search-engines/duckduckgo), or [Qwant](https://awesome-privacy.xyz/essentials/search-engines/qwant). Google implements some [incredibly invasive](https://hackernoon.com/data-privacy-concerns-with-google-b946f2b7afea) tracking policies, and have a history of displaying [biased search results](https://www.businessinsider.com/evidence-that-google-search-results-are-biased-2014-10). Therefore Google, along with Bing, Baidu, Yahoo and Yandex are incompatible with anyone looking to protect their privacy. It is recommended to update your [browsers default search](https://duckduckgo.com/install) to a privacy-respecting search engine.
-**Remove Unnecessary Browser Addons** | Essential | Extensions are able to see, log or modify anything you do in the browser, and some innocent looking browser apps, have malicious intentions. Websites can see which extensions you have installed, and may use this to enhance your fingerprint, to more accurately identify/ track you. Both [Firefox](https://awesome-privacy.xyz/essentials/browsers/firefox) and Chrome web stores allow you to check what permissions/access rights an extension requires before you install it. Check the reviews. Only install extensions you really need, and removed those which you haven't used in a while.
-**Keep Browser Up-to-date** | Essential | Browser vulnerabilities are constantly being [discovered](https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=browser) and patched, so it’s important to keep it up to date, to avoid a zero-day exploit. You can [see which browser version you're using here](https://www.whatismybrowser.com/), or follow [this guide](https://www.whatismybrowser.com/guides/how-to-update-your-browser/) for instructions on how to update. Some browsers will auto-update to the latest stable version.
-**Check for HTTPS** | Essential | If you enter information on a non-HTTPS website, this data is transported unencrypted and can therefore be read by anyone who intercepts it. Do not enter any data on a non-HTTPS website, but also do not let the green padlock give you a false sense of security, just because a website has SSL certificate, does not mean that it is legitimate or trustworthy. [HTTPS-Everywhere](https://www.eff.org/https-everywhere) (developed by the [EFF](https://www.eff.org/)) used to be a browser extension/addon that automatically enabled HTTPS on websites, but as of 2022 is now deprecated. In their [accouncement article](https://www.eff.org/) the EFF explains that most browsers now integrate such protections. Additionally, it provides instructions for [Firefox](https://awesome-privacy.xyz/essentials/browsers/firefox), Chrome, Edge and Safari browsers on how to enable their HTTPS secure protections.
-**Use DNS-over-HTTPS** | Essential | Traditional DNS makes requests in plain text for everyone to see. It allows for eavesdropping and manipulation of DNS data through man-in-the-middle attacks. Whereas DNS-over-HTTPS performs DNS resolution via the HTTPS protocol, meaning data between you and your DNS resolver is encrypted. A popular option is [CloudFlare](https://awesome-privacy.xyz/networking/dns-providers/cloudflare)'s [1.1.1.1](https://awesome-privacy.xyz/security-tools/mobile-apps/1.1.1.1), or compare providers- it is simple to enable in-browser. Note that DoH comes with its own issues, mostly preventing web filtering.
-**Multi-[Session](https://awesome-privacy.xyz/communication/encrypted-messaging/session) Containers** | Essential | Compartmentalisation is really important to keep different aspects of your browsing separate. For example, using different profiles for work, general browsing, social media, online shopping etc will reduce the number associations that data brokers can link back to you. One option is to make use of [Firefox Containers](https://awesome-privacy.xyz/security-tools/browser-extensions/firefox-multi-account-containers) which is designed exactly for this purpose. Alternatively, you could use different browsers for different tasks ([Brave](https://awesome-privacy.xyz/essentials/browsers/brave-browser), [Firefox](https://awesome-privacy.xyz/essentials/browsers/firefox), [Tor](https://awesome-privacy.xyz/networking/mix-networks/tor) etc).
-**Use Incognito** | Essential | When using someone else's machine, ensure that you're in a private/ incognito session. This will prevent browser history, cookies and some data being saved, but is not fool-proof- you can still be tracked.
-**Understand Your Browser Fingerprint** | Essential | Browser Fingerprinting is an incredibly accurate method of tracking, where a website identifies you based on your device information. You can view your fingerprint at amiunique.org- The aim is to be as un-unique as possible.
-**Manage Cookies** | Essential | Clearing cookies regularly is one step you can take to help reduce websites from tracking you. Cookies may also store your session token, which if captured, would allow someone to access your accounts without credentials. To mitigate this you should clear cookies often.
-**Block Third-Party Cookies** | Essential | Third-party cookies placed on your device by a website other than the one you’re visiting. This poses a privacy risk, as a 3rd entity can collect data from your current session. This guide explains how you can disable 3rd-party cookies, and you can check here ensure this worked.
-**Block Third-Party Trackers** | Essential | Blocking trackers will help to stop websites, advertisers, analytics and more from tracking you in the background. [Privacy Badger](https://awesome-privacy.xyz/security-tools/browser-extensions/privacy-badger), [DuckDuckGo Privacy Essentials](https://awesome-privacy.xyz/security-tools/browser-extensions/privacy-essentials), [uBlock Origin](https://awesome-privacy.xyz/networking/ad-blockers/ublock-origin) and uMatrix (advanced) are all very effective, open source tracker-blockers available for all major browsers.
-**Beware of Redirects** | Optional | While some redirects are harmless, others, such as Unvalidated redirects are used in phishing attacks, it can make a malicious link seem legitimate. If you are unsure about a redirect URL, you can check where it forwards to with a tool like RedirectDetective.
-**Do Not Sign Into Your Browser** | Optional | Many browsers allow you to sign in, in order to sync history, bookmarks and other browsing data across devices. However this not only allows for further data collection, but also increases attack surface through providing another avenue for a malicious actor to get hold of personal information.
-**Disallow Prediction Services** | Optional | Some browsers allow for prediction services, where you receive real-time search results or URL auto-fill. If this is enabled then data is sent to Google (or your default search engine) with every keypress, rather than when you hit enter.
-**Avoid G Translate for Webpages** | Optional | When you visit a web page written in a foreign language, you may be prompted to install the Google Translate extension. Be aware that Google collects all data (including input fields), along with details of the current user. Instead use a translation service that is not linked to your browser.
-**Disable Web Notifications** | Optional | Browser push notifications are a common method for criminals to encourage you to click their link, since it is easy to spoof the source. Be aware of this, and for instructions on disabling browser notifications, see this article.
-**Disable Automatic Downloads** | Optional | Drive-by downloads is a common method of getting harmful files onto a users device. This can be mitigated by disabling auto file downloads, and be cautious of websites which prompt you to download files unexpectedly.
-**Disallow Access to Sensors** | Optional | Mobile websites can tap into your device sensors without asking. If you grant these permissions to your browser once, then all websites are able to use these capabilities, without permission or notification.
-**Disallow Location** | Optional | Location Services lets sites ask for your physical location to improve your experience. This should be disabled in settings. Note that there are still other methods of determining your approximate location.
-**Disallow Camera/ Microphone access** | Optional | Check browser settings to ensure that no websites are granted access to webcam or microphone. It may also be beneficial to use physical protection such as a webcam cover and microphone blocker.
-**Disable Browser Password Saves** | Optional | Do not allow your browser to store usernames and passwords. These can be easily viewed or accessed. Instead use a password manager.
-**Disable Browser Autofill** | Optional | Turn off autofill for any confidential or personal details. This feature can be harmful if your browser is compromised in any way. Instead, consider using your password manager's Notes feature.
-**Protect from Exfil Attack** | Optional | The CSS Exfiltrate attack is a method where credentials and other sensitive details can be snagged with just pure CSS. You can stay protected, with the [CSS Exfil Protection](https://awesome-privacy.xyz/security-tools/browser-extensions/css-exfil-protection) plugin.
-**Deactivate ActiveX** | Optional | ActiveX is a browser extension API that built into Microsoft IE, and enabled by default. It's not commonly used anymore, but since it gives plugins intimate access rights, and can be dangerous, therefore you should disable it.
-**Disable WebRTC** | Optional | WebRTC allows high-quality audio/video communication and peer-to-peer file-sharing straight from the browser. However it can pose as a privacy leak. To learn more, check out this guide.
-**Spoof HTML5 Canvas Sig** | Optional | Canvas Fingerprinting allows websites to identify and track users very accurately. You can use the Canvas-Fingerprint-Blocker extension to spoof your fingerprint or use [Tor](https://awesome-privacy.xyz/networking/mix-networks/tor).
-**Spoof User Agent** | Optional | The user agent tells the website what device, browser and version you are using. Switching user agent periodically is one small step you can take to become less unique.
-**Disregard DNT** | Optional | Enabling Do Not Track has very limited impact, since many websites do not respect or follow this. Since it is rarely used, it may also add to your signature, making you more unique.
-**Prevent HSTS Tracking** | Optional | HSTS was designed to help secure websites, but privacy concerns have been raised as it allowed site operators to plant super-cookies. It can be disabled by visiting chrome://net-internals/#hsts in Chromium-based browsers.
-**Prevent Automatic Browser Connections** | Optional | Even when you are not using your browser, it may call home to report on usage activity, analytics and diagnostics. You may wish to disable some of this, which can be done through the settings.
-**Enable 1st-Party Isolation** | Optional | [First Party Isolation](https://awesome-privacy.xyz/security-tools/browser-extensions/first-party-isolation) means that all identifier sources and browser state are scoped using the URL bar domain, this can greatly reduce tracking.
-**Strip Tracking Params from URLs** | Advanced | Websites often append additional GET parameters to URLs that you click, to identify information like source/referrer. You can sanitize manually, or use an extension like [ClearURLs](https://awesome-privacy.xyz/security-tools/browser-extensions/clearurls) to strip tracking data from URLs automatically.
-**First Launch Security** | Advanced | After installing a web browser, the first time you launch it (prior to configuring its privacy settings), most browsers will call home. Therefore, after installing a browser, you should first disable your internet connection, then configure privacy options before reenabling your internet connectivity.
-**Use The Tor Browser** | Advanced | The [Tor](https://awesome-privacy.xyz/networking/mix-networks/tor) Project provides a browser that encrypts and routes your traffic through multiple nodes, keeping users safe from interception and tracking. The main drawbacks are speed and user experience.
-**Disable JavaScript** | Advanced | Many modern web apps are JavaScript-based, so disabling it will greatly decrease your browsing experience. But if you really want to go all out, then it will really reduce your attack surface.
+**Bloqueie anúncios** | Essencial | Usar um bloqueador de anúncios pode ajudar a melhorar sua privacidade ao bloquear os rastreadores implementados pelos anúncios. [uBlock Origin](https://awesome-privacy.xyz/networking/ad-blockers/ublock-origin) é um complemento de navegador muito eficiente e de código aberto, desenvolvido por Raymond Hill. Quando anúncios de terceiros são exibidos em uma página da web, eles podem rastreá-lo, coletando informações pessoais sobre você e seus hábitos, que podem então ser vendidas ou usadas para mostrar anúncios mais direcionados, e alguns anúncios são simplesmente maliciosos ou falsos. Bloquear anúncios também faz as páginas carregarem mais rápido, usa menos dados e oferece uma experiência menos poluída.
+**Garanta que o site é legítimo** | Básico | Pode parecer óbvio, mas, ao fazer login em qualquer conta online, confira em dobro se a URL está correta. Salvar sites visitados com frequência nos favoritos é uma boa forma de garantir que a URL seja fácil de encontrar. Ao visitar novos sites, procure sinais comuns de que eles podem ser inseguros: avisos do navegador, redirecionamentos, spam no site e pop-ups. Você também pode verificar um site com uma ferramenta como: [Virus Total](https://awesome-privacy.xyz/security-tools/online-tools/virus-total), [IsLegitSite](https://www.islegitsite.com), [Google Safe Browsing Status](https://transparencyreport.google.com/safe-browsing/search), se estiver em dúvida.
+**Fique atento a malware no navegador** | Básico | Seu sistema ou navegador pode ser comprometido por spyware, mineradores, sequestradores de navegador, redirecionamentos maliciosos, adware etc. Geralmente você consegue se proteger apenas ignorando pop-ups, tendo cuidado com o que clica e não prosseguindo para um site se o navegador avisar que ele pode ser malicioso. Sinais comuns de malware no navegador incluem: mecanismo de busca padrão ou página inicial modificados, barras de ferramentas, extensões ou ícones desconhecidos, quantidade significativamente maior de anúncios, erros e páginas carregando muito mais devagar do que o normal. Estes artigos da Heimdal explicam [sinais de malware no navegador](https://heimdalsecurity.com/blog/warning-signs-operating-system-infected-malware), [como navegadores são infectados](https://heimdalsecurity.com/blog/practical-online-protection-where-malware-hides) e [como remover malware do navegador](https://heimdalsecurity.com/blog/malware-removal).
+**Use um navegador que respeite a privacidade** | Essencial | [Firefox](https://awesome-privacy.xyz/essentials/browsers/firefox) (com alguns ajustes) e [Brave](https://awesome-privacy.xyz/essentials/browsers/brave-browser) são navegadores seguros e que respeitam a privacidade. Ambos são rápidos, de código aberto, fáceis de usar e disponíveis nos principais sistemas operacionais. Seu navegador tem acesso a tudo o que você faz online, então, se possível, evite Google Chrome, Edge e Safari, pois (sem a configuração correta) os três coletam dados de uso, “ligam para casa” e permitem rastreamento invasivo. O Firefox exige algumas mudanças para alcançar segurança ideal, por exemplo, as configurações user.js do [arkenfox](https://github.com/arkenfox/user.js/wiki) ou do [12byte](https://12bytes.org/firefox-configuration-guide-for-privacy-freaks-and-performance-buffs/). Veja mais em: [Navegadores Privados](https://github.com/Lissy93/awesome-privacy#browsers).
+**Use um mecanismo de busca privado** | Essencial | Usar um mecanismo de busca que preserve a privacidade e não rastreie reduzirá o risco de que seus termos de pesquisa sejam registrados ou usados contra você. Considere [DuckDuckGo](https://awesome-privacy.xyz/essentials/search-engines/duckduckgo) ou [Qwant](https://awesome-privacy.xyz/essentials/search-engines/qwant). O Google implementa algumas políticas de rastreamento [incrivelmente invasivas](https://hackernoon.com/data-privacy-concerns-with-google-b946f2b7afea) e tem histórico de exibir [resultados de busca tendenciosos](https://www.businessinsider.com/evidence-that-google-search-results-are-biased-2014-10). Portanto, Google, junto com Bing, Baidu, Yahoo e Yandex, é incompatível com quem busca proteger a própria privacidade. Recomenda-se atualizar a [busca padrão do seu navegador](https://duckduckgo.com/install) para um mecanismo que respeite a privacidade.
+**Remova extensões desnecessárias do navegador** | Essencial | Extensões conseguem ver, registrar ou modificar tudo o que você faz no navegador, e alguns aplicativos de navegador aparentemente inocentes têm intenções maliciosas. Sites conseguem ver quais extensões você instalou e podem usar isso para fortalecer sua impressão digital, identificando/rastreando você com mais precisão. Tanto a loja do [Firefox](https://awesome-privacy.xyz/essentials/browsers/firefox) quanto a Chrome Web Store permitem verificar quais permissões/direitos de acesso uma extensão exige antes de instalá-la. Veja as avaliações. Instale apenas extensões de que você realmente precisa e remova as que não usa há algum tempo.
+**Mantenha o navegador atualizado** | Essencial | Vulnerabilidades de navegador estão constantemente sendo [descobertas](https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=browser) e corrigidas, então é importante mantê-lo atualizado para evitar um exploit de zero-day. Você pode [ver qual versão do navegador está usando aqui](https://www.whatismybrowser.com/), ou seguir [este guia](https://www.whatismybrowser.com/guides/how-to-update-your-browser/) com instruções de atualização. Alguns navegadores serão atualizados automaticamente para a versão estável mais recente.
+**Verifique se há HTTPS** | Essencial | Se você inserir informações em um site sem HTTPS, esses dados serão transportados sem criptografia e, portanto, poderão ser lidos por qualquer pessoa que os intercepte. Não insira nenhum dado em um site sem HTTPS, mas também não deixe que o cadeado verde lhe dê uma falsa sensação de segurança: só porque um site tem certificado SSL, não significa que ele seja legítimo ou confiável. [HTTPS-Everywhere](https://www.eff.org/https-everywhere) (desenvolvido pela [EFF](https://www.eff.org/)) costumava ser uma extensão/complemento de navegador que habilitava HTTPS automaticamente nos sites, mas desde 2022 está descontinuada. Em seu [artigo de anúncio](https://www.eff.org/), a EFF explica que a maioria dos navegadores agora integra essas proteções. Além disso, o texto fornece instruções para os navegadores [Firefox](https://awesome-privacy.xyz/essentials/browsers/firefox), Chrome, Edge e Safari sobre como habilitar suas proteções seguras de HTTPS.
+**Use DNS-over-HTTPS** | Essencial | O DNS tradicional faz requisições em texto puro para todos verem. Isso permite espionagem e manipulação dos dados de DNS por meio de ataques man-in-the-middle. Já o DNS-over-HTTPS faz a resolução de DNS via protocolo HTTPS, o que significa que os dados entre você e seu resolvedor DNS são criptografados. Uma opção popular é o [1.1.1.1](https://awesome-privacy.xyz/security-tools/mobile-apps/1.1.1.1) da [CloudFlare](https://awesome-privacy.xyz/networking/dns-providers/cloudflare), ou compare provedores — é simples habilitar no navegador. Observe que DoH tem seus próprios problemas, principalmente impedir filtragem web.
+**Contêineres Multi-[Session](https://awesome-privacy.xyz/communication/encrypted-messaging/session)** | Essencial | Compartimentalização é realmente importante para manter separados os diferentes aspectos da sua navegação. Por exemplo, usar perfis diferentes para trabalho, navegação geral, redes sociais, compras online etc. reduzirá o número de associações que corretores de dados podem vincular a você. Uma opção é usar [Firefox Containers](https://awesome-privacy.xyz/security-tools/browser-extensions/firefox-multi-account-containers), que foi projetado exatamente para esse propósito. Como alternativa, você pode usar navegadores diferentes para tarefas diferentes ([Brave](https://awesome-privacy.xyz/essentials/browsers/brave-browser), [Firefox](https://awesome-privacy.xyz/essentials/browsers/firefox), [Tor](https://awesome-privacy.xyz/networking/mix-networks/tor) etc).
+**Use modo anônimo** | Essencial | Ao usar a máquina de outra pessoa, certifique-se de estar em uma sessão privada/anônima. Isso impedirá que histórico do navegador, cookies e alguns dados sejam salvos, mas não é infalível — você ainda pode ser rastreado.
+**Entenda a impressão digital do seu navegador** | Essencial | A impressão digital do navegador (Browser Fingerprinting) é um método incrivelmente preciso de rastreamento, em que um site identifica você com base nas informações do seu dispositivo. Você pode ver sua impressão digital em amiunique.org — o objetivo é ser o menos único possível.
+**Gerencie cookies** | Essencial | Limpar cookies regularmente é uma medida que você pode tomar para ajudar a reduzir o rastreamento por sites. Cookies também podem armazenar seu token de sessão, que, se capturado, permitiria a alguém acessar suas contas sem credenciais. Para mitigar isso, limpe os cookies com frequência.
+**Bloqueie cookies de terceiros** | Essencial | Cookies de terceiros são colocados no seu dispositivo por um site diferente daquele que você está visitando. Isso representa um risco à privacidade, já que uma terceira entidade pode coletar dados da sua sessão atual. Este guia explica como você pode desabilitar cookies de terceiros, e você pode verificar aqui para garantir que isso funcionou.
+**Bloqueie rastreadores de terceiros** | Essencial | Bloquear rastreadores ajudará a impedir que sites, anunciantes, ferramentas de análise e outros rastreiem você em segundo plano. [Privacy Badger](https://awesome-privacy.xyz/security-tools/browser-extensions/privacy-badger), [DuckDuckGo Privacy Essentials](https://awesome-privacy.xyz/security-tools/browser-extensions/privacy-essentials), [uBlock Origin](https://awesome-privacy.xyz/networking/ad-blockers/ublock-origin) e uMatrix (avançado) são bloqueadores de rastreadores muito eficazes e de código aberto, disponíveis para os principais navegadores.
+**Cuidado com redirecionamentos** | Opcional | Embora alguns redirecionamentos sejam inofensivos, outros, como redirecionamentos não validados, são usados em ataques de phishing, podendo fazer um link malicioso parecer legítimo. Se você não tiver certeza sobre uma URL de redirecionamento, pode verificar para onde ela encaminha com uma ferramenta como RedirectDetective.
+**Não faça login no seu navegador** | Opcional | Muitos navegadores permitem que você faça login para sincronizar histórico, favoritos e outros dados de navegação entre dispositivos. No entanto, isso não apenas permite mais coleta de dados, como também aumenta a superfície de ataque ao oferecer mais um caminho para que um agente malicioso obtenha suas informações pessoais.
+**Desative serviços de predição** | Opcional | Alguns navegadores permitem serviços de predição, nos quais você recebe resultados de busca em tempo real ou preenchimento automático de URL. Se isso estiver habilitado, os dados serão enviados ao Google (ou ao seu mecanismo de busca padrão) a cada tecla pressionada, em vez de apenas quando você apertar Enter.
+**Evite G Translate para páginas da web** | Opcional | Ao visitar uma página escrita em outro idioma, você pode ser solicitado a instalar a extensão Google Translate. Esteja ciente de que o Google coleta todos os dados (incluindo campos de entrada), junto com detalhes do usuário atual. Em vez disso, use um serviço de tradução que não esteja vinculado ao seu navegador.
+**Desative notificações web** | Opcional | Notificações push do navegador são um método comum para criminosos incentivarem você a clicar em seus links, já que é fácil falsificar a origem. Esteja ciente disso e, para instruções sobre como desabilitar notificações do navegador, veja este artigo.
+**Desative downloads automáticos** | Opcional | Downloads drive-by são uma forma comum de colocar arquivos nocivos no dispositivo de um usuário. Isso pode ser mitigado desativando downloads automáticos de arquivos e tendo cautela com sites que peçam para você baixar arquivos inesperadamente.
+**Negue acesso a sensores** | Opcional | Sites móveis podem acessar os sensores do seu dispositivo sem pedir. Se você conceder essas permissões ao navegador uma vez, então todos os sites poderão usar esses recursos, sem permissão ou notificação.
+**Negue acesso à localização** | Opcional | Serviços de localização permitem que sites solicitem sua localização física para melhorar sua experiência. Isso deve ser desativado nas configurações. Observe que ainda existem outros métodos de determinar sua localização aproximada.
+**Negue acesso à câmera/microfone** | Opcional | Verifique as configurações do navegador para garantir que nenhum site tenha acesso à webcam ou ao microfone. Também pode ser benéfico usar proteção física, como tampa para webcam e bloqueador de microfone.
+**Desative o salvamento de senhas no navegador** | Opcional | Não permita que seu navegador armazene nomes de usuário e senhas. Eles podem ser facilmente visualizados ou acessados. Em vez disso, use um gerenciador de senhas.
+**Desative o preenchimento automático do navegador** | Opcional | Desative o autofill para quaisquer detalhes confidenciais ou pessoais. Esse recurso pode ser prejudicial se seu navegador for comprometido de alguma forma. Em vez disso, considere usar o recurso de Notas do seu gerenciador de senhas.
+**Proteja-se contra ataque de exfiltração** | Opcional | O ataque CSS Exfiltrate é um método em que credenciais e outros detalhes sensíveis podem ser capturados usando apenas CSS puro. Você pode se manter protegido com o plugin [CSS Exfil Protection](https://awesome-privacy.xyz/security-tools/browser-extensions/css-exfil-protection).
+**Desative ActiveX** | Opcional | ActiveX é uma API de extensão de navegador integrada ao Microsoft IE e habilitada por padrão. Não é mais muito usada, mas, como concede permissões de acesso profundas aos plugins e pode ser perigosa, você deve desativá-la.
+**Desative WebRTC** | Opcional | WebRTC permite comunicação de áudio/vídeo de alta qualidade e compartilhamento de arquivos P2P diretamente do navegador. No entanto, pode representar um vazamento de privacidade. Para saber mais, confira este guia.
+**Mascare a assinatura do HTML5 Canvas** | Opcional | Canvas Fingerprinting permite que sites identifiquem e rastreiem usuários com muita precisão. Você pode usar a extensão Canvas-Fingerprint-Blocker para mascarar sua impressão digital ou usar [Tor](https://awesome-privacy.xyz/networking/mix-networks/tor).
+**Mascare o agente do usuário (User Agent)** | Opcional | O user agent informa ao site qual dispositivo, navegador e versão você está usando. Alterá-lo periodicamente é um pequeno passo que você pode dar para se tornar menos único.
+**Desconsidere DNT** | Opcional | Habilitar Do Not Track tem impacto muito limitado, já que muitos sites não respeitam isso. Como é raramente usado, também pode se somar à sua assinatura, tornando você mais único.
+**Evite rastreamento por HSTS** | Opcional | HSTS foi projetado para ajudar a proteger sites, mas preocupações de privacidade foram levantadas porque permitia que operadores plantassem supercookies. Ele pode ser desativado visitando chrome://net-internals/#hsts em navegadores baseados em Chromium.
+**Evite conexões automáticas do navegador** | Opcional | Mesmo quando você não está usando o navegador, ele pode “ligar para casa” para relatar atividade de uso, análises e diagnósticos. Você pode querer desabilitar parte disso, o que pode ser feito nas configurações.
+**Habilite isolamento de primeira parte** | Opcional | [First Party Isolation](https://awesome-privacy.xyz/security-tools/browser-extensions/first-party-isolation) significa que todas as fontes de identificação e o estado do navegador são delimitados usando o domínio da barra de URL, o que pode reduzir bastante o rastreamento.
+**Remova parâmetros de rastreamento das URLs** | Avançado | Os sites frequentemente acrescentam parâmetros GET adicionais às URLs em que você clica para identificar informações como origem/referenciador. Você pode higienizar isso manualmente, ou usar uma extensão como [ClearURLs](https://awesome-privacy.xyz/security-tools/browser-extensions/clearurls) para remover dados de rastreamento das URLs automaticamente.
+**Segurança no primeiro lançamento** | Avançado | Depois de instalar um navegador web, na primeira vez que você o abre (antes de configurar as opções de privacidade), a maioria dos navegadores “liga para casa”. Portanto, após instalar um navegador, você deve primeiro desabilitar sua conexão com a internet, configurar as opções de privacidade e só então reativar a conectividade.
+**Use o navegador Tor** | Avançado | O projeto [Tor](https://awesome-privacy.xyz/networking/mix-networks/tor) fornece um navegador que criptografa e roteia seu tráfego por vários nós, mantendo usuários protegidos contra interceptação e rastreamento. As principais desvantagens são velocidade e experiência de uso.
+**Desative JavaScript** | Avançado | Muitos aplicativos web modernos são baseados em JavaScript, então desativá-lo reduzirá bastante sua experiência de navegação. Mas, se você realmente quiser ir ao extremo, isso reduzirá bastante sua superfície de ataque.
 
-### Recommended Software
-- [Privacy Browsers](https://github.com/Lissy93/awesome-privacy#browsers)
-- [Browser Extensions](https://github.com/Lissy93/awesome-privacy#browser-extensions)
-- [Browser & Bookmark Sync](https://github.com/Lissy93/awesome-privacy#browser-sync)
+### Software recomendado
+- [Navegadores Privados](https://github.com/Lissy93/awesome-privacy#browsers)
+- [Extensões de Navegador](https://github.com/Lissy93/awesome-privacy#browser-extensions)
+- [Sincronização de Navegador e Favoritos](https://github.com/Lissy93/awesome-privacy#browser-sync)
 
 
 ## Email
 
-Nearly 50 years since the first email was sent, it's still very much a big part of our day-to-day life, and will continue to be for the near future. So considering how much trust we put in them, it's surprising how fundamentally insecure this infrastructure is. Email-related fraud [is on the up](https://www.csoonline.com/article/3247670/email/email-security-in-2018.html), and without taking basic measures you could be at risk.
+Quase 50 anos desde que o primeiro email foi enviado, ele ainda é uma grande parte do nosso dia a dia e continuará sendo no futuro próximo. Portanto, considerando o quanto confiamos nele, é surpreendente quão fundamentalmente insegura é essa infraestrutura. Fraudes relacionadas a email [estão aumentando](https://www.csoonline.com/article/3247670/email/email-security-in-2018.html), e, sem tomar medidas básicas, você pode estar em risco.
 
-If a hacker gets access to your emails, it provides a gateway for your other accounts to be compromised (through password resets), therefore email security is paramount for your digital safety.
+Se um hacker obtiver acesso aos seus emails, isso oferece uma porta de entrada para que suas outras contas sejam comprometidas (por meio de redefinições de senha), portanto a segurança do email é primordial para a sua segurança digital.
 
-The big companies providing "free" email service, don't have a good reputation for respecting users privacy: Gmail was caught giving [third parties full access](https://www.wsj.com/articles/techs-dirty-secret-the-app-developers-sifting-through-your-gmail-1530544442) to user emails and also [tracking all of your purchases](https://www.cnbc.com/2019/05/17/google-gmail-tracks-purchase-history-how-to-delete-it.html). Yahoo was also caught scanning emails in real-time [for US surveillance agencies](http://news.trust.org/item/20161004170601-99f8c) Advertisers [were granted access](https://thenextweb.com/insider/2018/08/29/both-yahoo-and-aol-are-scanning-customer-emails-to-attract-advertisers) to Yahoo and AOL users messages to “identify and segment potential customers by picking up on contextual buying signals, and past purchases.”
+As grandes empresas que oferecem serviço de email “gratuito” não têm boa reputação no respeito à privacidade dos usuários: o Gmail foi pego dando [acesso total a terceiros](https://www.wsj.com/articles/techs-dirty-secret-the-app-developers-sifting-through-your-gmail-1530544442) aos emails dos usuários e também [rastreamento de todas as suas compras](https://www.cnbc.com/2019/05/17/google-gmail-tracks-purchase-history-how-to-delete-it.html). O Yahoo também foi pego escaneando emails em tempo real [para agências de vigilância dos EUA](http://news.trust.org/item/20161004170601-99f8c). Anunciantes [receberam acesso](https://thenextweb.com/insider/2018/08/29/both-yahoo-and-aol-are-scanning-customer-emails-to-attract-advertisers) às mensagens de usuários do Yahoo e AOL para “identificar e segmentar clientes em potencial ao captar sinais contextuais de compra e compras passadas”.
 
-**Security** | **Priority** | **Details and Hints**
+**Segurança** | **Prioridade** | **Detalhes e dicas**
 --- | --- | ---
-**Have more than one email address** | Essential | Consider using a different email address for security-critical communications from trivial mail such as newsletters. This compartmentalization could reduce the amount of damage caused by a data breach, and also make it easier to recover a compromised account.
-**Keep Email Address Private** | Essential | Do not share your primary email publicly, as mail addresses are often the starting point for most phishing attacks.
-**Keep your Account Secure** | Essential | Use a long and unique password, enable 2FA and be careful while logging in. Your email account provides an easy entry point to all your other online accounts for an attacker.
-**Disable Automatic Loading of Remote Content** | Essential | Email messages can contain remote content such as images or stylesheets, often automatically loaded from the server. You should disable this, as it exposes your IP address and device information, and is often used for tracking. For more info, see [this article](https://www.theverge.com/2019/7/3/20680903/email-pixel-trackers-how-to-stop-images-automatic-download).
-**Use Plaintext** | Optional | There are two main types of emails on the internet: plaintext and HTML. The former is strongly preferred for privacy & security as HTML messages often include identifiers in links and inline images, which can collect usage and personal data. There's also numerous risks of remote code execution targeting the HTML parser of your mail client, which cannot be exploited if you are using plaintext. For more info, as well as setup instructions for your mail provider, see [UsePlaintext.email](https://useplaintext.email/).
-**Don’t connect third-party apps to your email account** | Optional | If you give a third-party app or plug-in full access to your inbox, they effectively have full unhindered access to all your emails and their contents, which poses significant security and privacy risks.
-**Don't Share Sensitive Data via Email** | Optional | Emails are very easily intercepted. Furthermore, you can’t be sure of how secure your recipient's environment is. Therefore, emails cannot be considered safe for exchanging confidential information, unless it is encrypted.
-**Consider Switching to a Secure Mail Provider** | Optional | Secure and reputable email providers such as [Forward Email](https://awesome-privacy.xyz/communication/encrypted-email/forward-email), [ProtonMail](https://awesome-privacy.xyz/communication/mail-forwarding/protonmail), and [Tutanota](https://awesome-privacy.xyz/communication/encrypted-email/tuta) allow for end-to-end encryption, full privacy as well as more security-focused features. Unlike typical email providers, your mailbox cannot be read by anyone but you, since all messages are encrypted.
-**Use Smart Key** | Advanced | OpenPGP does not support Forward secrecy, which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. Therefore, you should take great care to keep your private keys safe. One method of doing so, is to use a USB Smart Key to sign or decrypt messages, allowing you to do so without your private key leaving the USB device.
-**Use Aliasing / Anonymous Forwarding** | Advanced | Email aliasing allows messages to be sent to [anything]@my-domain.com and still land in your primary inbox. Effectively allowing you to use a different, unique email address for each service you sign up for. This means if you start receiving spam, you can block that alias and determine which company leaked your email address.
-**Subaddressing** | Optional | An alternative to aliasing is subaddressing, where anything after the `+` symbol is omitted during mail delivery. This enables you to keep track of who shared/ leaked your email address, but unlike aliasing, it will not protect against your real address being revealed.
-**Use a Custom Domain** | Advanced | Using a custom domain means that you are not dependent on the address assigned by your mail provider. So you can easily switch providers in the future and do not need to worry about a service being discontinued.
-**Sync with a client for backup** | Advanced | To avoid losing temporary or permanent access to your emails during an unplanned event (such as an outage or account lock), Thunderbird can sync/ backup messages from multiple accounts via IMAP and store locally on your primary device.
-**Be Careful with Mail Signatures** | Advanced | You do not know how secure of an email environment the recipient of your message may have. There are several extensions that automatically crawl messages, and create a detailed database of contact information based upon email signatures.
-**Be Careful with Auto-Replies** | Advanced | Out-of-office automatic replies are very useful for informing people there will be a delay in replying, but all too often people reveal too much information- which can be used in social engineering and targeted attacks.
-**Choose the Right Mail Protocol** | Advanced | Do not use outdated protocols (below IMAPv4 or POPv3), both have known vulnerabilities and out-dated security.
-**Self-Hosting** | Advanced | Self-hosting your own mail server is not recommended for non-advanced users, since correctly securing it is critical yet requires strong networking knowledge.
-**Always use TLS Ports** | Advanced | There are SSL options for POP3, IMAP, and SMTP as standard TCP/IP ports. They are easy to use, and widely supported so should always be used instead of plaintext email ports.
-**DNS Availability** | Advanced | For self-hosted mail servers, to prevent DNS problems impacting availability- use at least 2 MX records, with secondary and tertiary MX records for redundancy when the primary MX record fails.
-**Prevent DDoS and Brute Force Attacks** | Advanced | For self-hosted mail servers (specifically SMTP), limit your total number of simultaneous connections, and maximum connection rate to reduce the impact of attempted bot attacks.
-**Maintain IP Blacklist** | Advanced | For self-hosted mail servers, you can improve spam filters and harden security, through maintaining an up-to-date local IP blacklist and a spam URI realtime block lists to filter out malicious hyperlinks.
+**Tenha mais de um endereço de email** | Essencial | Considere usar um endereço de email diferente para comunicações críticas de segurança e para mensagens triviais, como newsletters. Essa compartimentalização pode reduzir a quantidade de dano causada por uma violação de dados e também facilitar a recuperação de uma conta comprometida.
+**Mantenha seu endereço de email privado** | Essencial | Não compartilhe seu email principal publicamente, pois endereços de email frequentemente são o ponto de partida para a maioria dos ataques de phishing.
+**Mantenha sua conta segura** | Essencial | Use uma senha longa e única, habilite 2FA e tenha cuidado ao fazer login. Sua conta de email fornece um ponto de entrada fácil para todas as suas outras contas online para um invasor.
+**Desative o carregamento automático de conteúdo remoto** | Essencial | Mensagens de email podem conter conteúdo remoto, como imagens ou folhas de estilo, frequentemente carregadas automaticamente do servidor. Você deve desabilitar isso, pois expõe seu endereço IP e informações do dispositivo e muitas vezes é usado para rastreamento. Para mais informações, veja [este artigo](https://www.theverge.com/2019/7/3/20680903/email-pixel-trackers-how-to-stop-images-automatic-download).
+**Use texto puro** | Opcional | Existem dois tipos principais de email na internet: texto puro e HTML. O primeiro é fortemente preferível para privacidade e segurança, pois mensagens HTML frequentemente incluem identificadores em links e imagens embutidas, que podem coletar dados de uso e pessoais. Também há numerosos riscos de execução remota de código direcionados ao parser HTML do seu cliente de email, que não podem ser explorados se você estiver usando texto puro. Para mais informações, bem como instruções de configuração para seu provedor de email, veja [UsePlaintext.email](https://useplaintext.email/).
+**Não conecte aplicativos de terceiros à sua conta de email** | Opcional | Se você der a um aplicativo ou plugin de terceiros acesso total à sua caixa de entrada, ele efetivamente terá acesso irrestrito a todos os seus emails e seus conteúdos, o que representa riscos significativos de segurança e privacidade.
+**Não compartilhe dados sensíveis por email** | Opcional | Emails são muito facilmente interceptados. Além disso, você não pode ter certeza de quão seguro é o ambiente do destinatário. Portanto, emails não podem ser considerados seguros para troca de informações confidenciais, a menos que estejam criptografados.
+**Considere migrar para um provedor de email seguro** | Opcional | Provedores de email seguros e respeitáveis, como [Forward Email](https://awesome-privacy.xyz/communication/encrypted-email/forward-email), [ProtonMail](https://awesome-privacy.xyz/communication/mail-forwarding/protonmail) e [Tutanota](https://awesome-privacy.xyz/communication/encrypted-email/tuta), permitem criptografia de ponta a ponta, privacidade total e recursos mais focados em segurança. Diferentemente de provedores de email típicos, sua caixa de correio não pode ser lida por ninguém além de você, já que todas as mensagens são criptografadas.
+**Use uma Smart Key** | Avançado | OpenPGP não oferece suporte a sigilo futuro (forward secrecy), o que significa que, se a sua chave privada ou a do destinatário for roubada algum dia, todas as mensagens anteriores criptografadas com ela serão expostas. Portanto, você deve tomar muito cuidado para manter suas chaves privadas seguras. Um método para isso é usar uma USB Smart Key para assinar ou descriptografar mensagens, permitindo fazer isso sem que sua chave privada saia do dispositivo USB.
+**Use aliases / encaminhamento anônimo** | Avançado | Aliasing de email permite que mensagens sejam enviadas para [anything]@my-domain.com e ainda cheguem à sua caixa de entrada principal. Na prática, isso permite que você use um endereço de email diferente e único para cada serviço em que se cadastra. Isso significa que, se você começar a receber spam, poderá bloquear aquele alias e descobrir qual empresa vazou seu endereço de email.
+**Subendereçamento** | Opcional | Uma alternativa ao uso de aliases é o subendereçamento, em que tudo após o símbolo `+` é omitido durante a entrega do email. Isso permite acompanhar quem compartilhou/vazou seu endereço de email, mas, ao contrário do uso de aliases, não protege contra a revelação do seu endereço real.
+**Use um domínio personalizado** | Avançado | Usar um domínio personalizado significa que você não depende do endereço atribuído pelo seu provedor de email. Assim, você pode trocar de provedor facilmente no futuro e não precisa se preocupar com a descontinuação de um serviço.
+**Sincronize com um cliente para backup** | Avançado | Para evitar perder acesso temporário ou permanente aos seus emails durante um evento não planejado (como uma indisponibilidade ou bloqueio de conta), o Thunderbird pode sincronizar/fazer backup de mensagens de várias contas via IMAP e armazená-las localmente no seu dispositivo principal.
+**Tenha cuidado com assinaturas de email** | Avançado | Você não sabe o quão seguro pode ser o ambiente de email do destinatário da sua mensagem. Existem várias extensões que rastreiam automaticamente mensagens e criam um banco de dados detalhado de informações de contato com base em assinaturas de email.
+**Tenha cuidado com respostas automáticas** | Avançado | Respostas automáticas de ausência são muito úteis para informar que haverá atraso na resposta, mas, com frequência, as pessoas revelam informações demais — que podem ser usadas em engenharia social e ataques direcionados.
+**Escolha o protocolo de email correto** | Avançado | Não use protocolos desatualizados (anteriores ao IMAPv4 ou POPv3); ambos têm vulnerabilidades conhecidas e segurança obsoleta.
+**Auto-hospedagem** | Avançado | Hospedar seu próprio servidor de email não é recomendado para usuários não avançados, já que protegê-lo corretamente é crítico e exige forte conhecimento de redes.
+**Sempre use portas TLS** | Avançado | Existem opções SSL para POP3, IMAP e SMTP como portas TCP/IP padrão. Elas são fáceis de usar e amplamente suportadas, então devem sempre ser usadas em vez de portas de email em texto puro.
+**Disponibilidade de DNS** | Avançado | Para servidores de email auto-hospedados, a fim de evitar que problemas de DNS afetem a disponibilidade, use pelo menos 2 registros MX, com registros MX secundário e terciário para redundância quando o registro MX principal falhar.
+**Previna ataques DDoS e de força bruta** | Avançado | Para servidores de email auto-hospedados (especificamente SMTP), limite o número total de conexões simultâneas e a taxa máxima de conexão para reduzir o impacto de tentativas de ataques de bots.
+**Mantenha uma blacklist de IP** | Avançado | Para servidores de email auto-hospedados, você pode melhorar filtros de spam e endurecer a segurança mantendo uma blacklist local de IP atualizada e listas de bloqueio em tempo real de URIs de spam para filtrar hyperlinks maliciosos.
 
-### Recommended Software
-- [Secure Email Providers](https://github.com/Lissy93/awesome-privacy#encrypted-email)
-- [Mail Forwarding](https://github.com/Lissy93/awesome-privacy#anonymous-mail-forwarding)
-- [Pre-Configured Mail Servers](https://github.com/Lissy93/awesome-privacy#pre-configured-mail-servers)
-- [Email Clients](https://github.com/Lissy93/awesome-privacy#email-clients)
-
-
-## Messaging
+### Software recomendado
+- [Provedores de Email Seguro](https://github.com/Lissy93/awesome-privacy#encrypted-email)
+- [Encaminhamento de Email](https://github.com/Lissy93/awesome-privacy#anonymous-mail-forwarding)
+- [Servidores de Email Pré-configurados](https://github.com/Lissy93/awesome-privacy#pre-configured-mail-servers)
+- [Clientes de Email](https://github.com/Lissy93/awesome-privacy#email-clients)
 
 
+## Mensagens
 
-**Security** | **Priority** | **Details and Hints**
+
+
+**Segurança** | **Prioridade** | **Detalhes e dicas**
 --- | --- | ---
-**Only Use Fully End-to-End Encrypted Messengers** | Essential | End-to-end encryption is a system of communication where messages are encrypted on your device and not decrypted until they reach the intended recipient. This ensures that any actor who intercepts traffic cannot read the message contents, nor can anybody with access to the central servers where data is stored.
-**Use only Open Source Messaging Platforms** | Essential | If code is open source then it can be independently examined and audited by anyone qualified to do so, to ensure that there are no backdoors, vulnerabilities, or other security issues.
-**Use a "Trustworthy" Messaging Platform** | Essential | When selecting an encrypted messaging app, ensure it's fully open source, stable, actively maintained, and ideally backed by reputable developers.
-**Check Security Settings** | Essential | Enable security settings, including contact verification, security notifications, and encryption. Disable optional non-security features such as read receipt, last online, and typing notification.
-**Ensure your Recipients Environment is Secure** | Essential | Your conversation can only be as secure as the weakest link. Often the easiest way to infiltrate a communications channel is to target the individual or node with the least protection.
-**Disable Cloud Services** | Essential | Some mobile messaging apps offer a web or desktop companion. This not only increases attack surface but it has been linked to several critical security issues, and should therefore be avoided, if possible.
-**Secure Group Chats** | Essential | The risk of compromise rises exponentially, the more participants are in a group, as the attack surface increases. Periodically check that all participants are legitimate.
-**Create a Safe Environment for Communication** | Essential | There are several stages where your digital communications could be monitored or intercepted. This includes: your or your participants' device, your ISP, national gateway or government logging, the messaging provider, the servers.
-**Agree on a Communication Plan** | Optional | In certain situations, it may be worth making a communication plan. This should include primary and backup methods of securely getting in hold with each other.
-**Strip Meta-Data from Media** | Optional | Metadata is "Data about Data" or additional information attached to a file or transaction. When you send a photo, audio recording, video, or document you may be revealing more than you intended to.
-**Defang URLs** | Optional | Sending links via various services can unintentionally expose your personal information. This is because, when a thumbnail or preview is generated- it happens on the client-side.
-**Verify your Recipient** | Optional | Always ensure you are talking to the intended recipient, and that they have not been compromised. One method for doing so is to use an app which supports contact verification.
-**Enable Ephemeral Messages** | Optional | Self-destructing messages is a feature that causes your messages to automatically delete after a set amount of time. This means that if your device is lost, stolen, or seized, an adversary will only have access to the most recent communications.
-**Avoid SMS** | Optional | SMS may be convenient, but it's not secure. It is susceptible to threats such as interception, sim swapping, manipulation, and malware.
-**Watch out for Trackers** | Optional | Be wary of messaging applications with trackers, as the detailed usage statistics they collect are often very invasive, and can sometimes reveal your identity as well as personal information that you would otherwise not intend to share.
-**Consider Jurisdiction** | Advanced | The jurisdictions where the organisation is based, and data is hosted should also be taken into account.
-**Use an Anonymous Platform** | Advanced | If you believe you may be targeted, you should opt for an anonymous messaging platform that does not require a phone number, or any other personally identifiable information to sign up or use.
-**Ensure Forward Secrecy is Supported** | Advanced | Opt for a platform that implements forward secrecy. This is where your app generates a new encryption key for every message.
-**Consider a Decentralized Platform** | Advanced | If all data flows through a central provider, you have to trust them with your data and meta-data. You cannot verify that the system running is authentic without back doors.
+**Use apenas mensageiros com criptografia ponta a ponta completa** | Essencial | Criptografia de ponta a ponta é um sistema de comunicação no qual as mensagens são criptografadas no seu dispositivo e só são descriptografadas quando chegam ao destinatário pretendido. Isso garante que qualquer agente que intercepte o tráfego não possa ler o conteúdo das mensagens, e que ninguém com acesso aos servidores centrais onde os dados são armazenados também possa fazê-lo.
+**Use apenas plataformas de mensagens de código aberto** | Essencial | Se o código é de código aberto, ele pode ser examinado e auditado independentemente por qualquer pessoa qualificada para garantir que não existam portas dos fundos, vulnerabilidades ou outros problemas de segurança.
+**Use uma plataforma de mensagens “confiável”** | Essencial | Ao selecionar um aplicativo de mensagens criptografadas, garanta que ele seja totalmente de código aberto, estável, mantido ativamente e, idealmente, apoiado por desenvolvedores respeitáveis.
+**Verifique as configurações de segurança** | Essencial | Habilite configurações de segurança, incluindo verificação de contatos, notificações de segurança e criptografia. Desative recursos opcionais não relacionados à segurança, como confirmação de leitura, visto por último e notificação de digitação.
+**Garanta que o ambiente dos seus destinatários seja seguro** | Essencial | Sua conversa só pode ser tão segura quanto o elo mais fraco. Muitas vezes, a forma mais fácil de infiltrar um canal de comunicação é atingir o indivíduo ou nó com menor proteção.
+**Desative serviços em nuvem** | Essencial | Alguns aplicativos móveis de mensagens oferecem um complemento web ou para desktop. Isso não apenas aumenta a superfície de ataque, como também já foi associado a vários problemas críticos de segurança, e, portanto, deve ser evitado, se possível.
+**Proteja conversas em grupo** | Essencial | O risco de comprometimento aumenta exponencialmente quanto mais participantes existem em um grupo, já que a superfície de ataque cresce. Verifique periodicamente se todos os participantes são legítimos.
+**Crie um ambiente seguro para comunicação** | Essencial | Há várias etapas em que suas comunicações digitais podem ser monitoradas ou interceptadas. Isso inclui: seu dispositivo ou o dos participantes, seu ISP, gateway nacional ou registros do governo, o provedor de mensagens e os servidores.
+**Combine um plano de comunicação** | Opcional | Em certas situações, pode valer a pena criar um plano de comunicação. Isso deve incluir métodos principais e de backup para entrar em contato uns com os outros com segurança.
+**Remova metadados de mídias** | Opcional | Metadados são “dados sobre dados” ou informações adicionais anexadas a um arquivo ou transação. Quando você envia uma foto, gravação de áudio, vídeo ou documento, pode estar revelando mais do que pretendia.
+**Neutralize URLs** | Opcional | Enviar links por vários serviços pode expor suas informações pessoais sem querer. Isso ocorre porque, quando uma miniatura ou prévia é gerada, isso acontece no lado do cliente.
+**Verifique seu destinatário** | Opcional | Sempre garanta que está falando com o destinatário pretendido e que ele não foi comprometido. Um método para fazer isso é usar um app com suporte à verificação de contato.
+**Habilite mensagens efêmeras** | Opcional | Mensagens autodestrutivas são um recurso que faz com que suas mensagens sejam apagadas automaticamente após um determinado tempo. Isso significa que, se seu dispositivo for perdido, roubado ou apreendido, um adversário terá acesso apenas às comunicações mais recentes.
+**Evite SMS** | Opcional | SMS pode ser conveniente, mas não é seguro. É suscetível a ameaças como interceptação, sim swapping, manipulação e malware.
+**Fique atento a rastreadores** | Opcional | Tenha cuidado com aplicativos de mensagens com rastreadores, pois as estatísticas detalhadas de uso que eles coletam costumam ser muito invasivas e às vezes podem revelar sua identidade, bem como informações pessoais que você não pretendia compartilhar.
+**Considere a jurisdição** | Avançado | As jurisdições onde a organização está sediada e onde os dados são hospedados também devem ser levadas em conta.
+**Use uma plataforma anônima** | Avançado | Se você acredita que pode ser alvo, deve optar por uma plataforma de mensagens anônima que não exija número de telefone nem qualquer outra informação pessoal identificável para cadastro ou uso.
+**Garanta suporte a sigilo futuro (forward secrecy)** | Avançado | Prefira uma plataforma que implemente sigilo futuro (forward secrecy). É quando seu aplicativo gera uma nova chave de criptografia para cada mensagem.
+**Considere uma plataforma descentralizada** | Avançado | Se todos os dados fluem por um provedor central, você precisa confiar a ele seus dados e metadados. Você não consegue verificar que o sistema em execução é autêntico e sem portas dos fundos.
 
-### Recommended Software
-- [Secure Messaging Apps](https://github.com/Lissy93/awesome-privacy#encrypted-messaging)
-- [P2P Messaging Platforms](https://github.com/Lissy93/awesome-privacy#p2p-messaging)
-
-
-## Social Media
-
-Online communities have existed since the invention of the internet, and give people around the world the opportunity to connect, communicate and share. Although these networks are a great way to promote social interaction and bring people together, that have a dark side - there are some serious [Privacy Concerns with Social Networking Services](https://en.wikipedia.org/wiki/Privacy_concerns_with_social_networking_services), and these social networking sites are owned by private corporations, and that they make their money by collecting data about individuals and selling that data on, often to third party advertisers.
-Secure your account, lock down your privacy settings, but know that even after doing so, all data intentionally and non-intentionally uploaded is effectively public. If possible, avoid using conventional social media networks.
+### Software recomendado
+- [Aplicativos de Mensagens Seguras](https://github.com/Lissy93/awesome-privacy#encrypted-messaging)
+- [Plataformas de Mensagens P2P](https://github.com/Lissy93/awesome-privacy#p2p-messaging)
 
 
-**Security** | **Priority** | **Details and Hints**
+## Redes Sociais
+
+Comunidades online existem desde a invenção da internet e dão às pessoas do mundo todo a oportunidade de se conectar, comunicar e compartilhar. Embora essas redes sejam uma ótima forma de promover interação social e aproximar pessoas, elas têm um lado obscuro — existem sérias [preocupações de privacidade com serviços de redes sociais](https://en.wikipedia.org/wiki/Privacy_concerns_with_social_networking_services), e esses sites de redes sociais pertencem a corporações privadas, que ganham dinheiro coletando dados sobre indivíduos e revendendo esses dados, muitas vezes para anunciantes terceirizados.
+Proteja sua conta, restrinja suas configurações de privacidade, mas saiba que, mesmo depois de fazer isso, todos os dados carregados intencionalmente e não intencionalmente são efetivamente públicos. Se possível, evite usar redes sociais convencionais.
+
+
+**Segurança** | **Prioridade** | **Detalhes e dicas**
 --- | --- | ---
-**Secure your Account** | Essential | Social media profiles get stolen or taken over all too often. To protect your account: use a unique and strong password, and enable 2-factor authentication.
-**Check Privacy Settings** | Essential | Most social networks allow you to control your privacy settings. Ensure that you are comfortable with what data you are currently exposing and to whom.
-**Think of All Interactions as Public** | Essential | There are still numerous methods of viewing a users 'private' content across many social networks. Therefore, before uploading, posting or commenting on anything, think "Would I mind if this was totally public?"
-**Think of All Interactions as Permanent** | Essential | Pretty much every post, comment, photo etc is being continuously backed up by a myriad of third-party services, who archive this data and make it indexable and publicly available almost forever.
-**Don't Reveal too Much** | Essential | Profile information creates a goldmine of info for hackers, the kind of data that helps them personalize phishing scams. Avoid sharing too much detail (DoB, Hometown, School etc).
-**Be Careful what you Upload** | Essential | Status updates, comments, check-ins and media can unintentionally reveal a lot more than you intended them to. This is especially relevant to photos and videos, which may show things in the background.
-**Don't Share Email or Phone Number** | Essential | Posting your real email address or mobile number, gives hackers, trolls and spammers more munition to use against you, and can also allow separate aliases, profiles or data points to be connected.
-**Don't Grant Unnecessary Permissions** | Essential | By default many of the popular social networking apps will ask for permission to access your contacts, call log, location, messaging history etc. If they don’t need this access, don’t grant it.
-**Be Careful of 3rd-Party Integrations** | Essential | Avoid signing up for accounts using a Social Network login, revoke access to social apps you no longer use.
-**Avoid Publishing Geo Data while still Onsite** | Essential | If you plan to share any content that reveals a location, then wait until you have left that place. This is particularly important when you are taking a trip, at a restaurant, campus, hotel/resort, public building or airport.
-**Remove metadata before uploading media** | Optional | Most smartphones and some cameras automatically attach a comprehensive set of additional data (called EXIF data) to each photograph. Remove this data before uploading.
-**Implement Image Cloaking** | Advanced | Tools like Fawkes can be used to very subtly, slightly change the structure of faces within photos in a way that is imperceptible by humans, but will prevent facial recognition systems from being able to recognize a given face.
-**Consider Spoofing GPS in home vicinity** | Advanced | Even if you yourself never use social media, there is always going to be others who are not as careful, and could reveal your location.
-**Consider False Information** | Advanced | If you just want to read, and do not intend on posting too much- consider using an alias name, and false contact details.
-**Don’t have any social media accounts** | Advanced | Social media is fundamentally un-private, so for maximum online security and privacy, avoid using any mainstream social networks.
+**Proteja sua conta** | Essencial | Perfis de redes sociais são roubados ou tomados com frequência. Para proteger sua conta: use uma senha forte e única e habilite autenticação de 2 fatores.
+**Verifique as configurações de privacidade** | Essencial | A maioria das redes sociais permite que você controle suas configurações de privacidade. Garanta que você se sente confortável com quais dados está expondo atualmente e para quem.
+**Considere todas as interações como públicas** | Essencial | Ainda existem inúmeros métodos de visualizar conteúdo 'privado' de usuários em muitas redes sociais. Portanto, antes de fazer upload, postar ou comentar qualquer coisa, pense: “Eu me importaria se isso fosse totalmente público?”
+**Considere todas as interações como permanentes** | Essencial | Praticamente toda publicação, comentário, foto etc. está sendo continuamente copiada por uma infinidade de serviços de terceiros, que arquivam esses dados e os tornam indexáveis e publicamente disponíveis quase para sempre.
+**Não revele demais** | Essencial | Informações de perfil criam uma mina de ouro para hackers, o tipo de dado que os ajuda a personalizar golpes de phishing. Evite compartilhar detalhes demais (data de nascimento, cidade natal, escola etc.).
+**Tenha cuidado com o que você publica** | Essencial | Atualizações de status, comentários, check-ins e mídias podem revelar sem querer muito mais do que você pretendia. Isso é especialmente relevante para fotos e vídeos, que podem mostrar coisas ao fundo.
+**Não compartilhe email ou número de telefone** | Essencial | Publicar seu endereço de email real ou número de celular dá a hackers, trolls e spammers mais munição para usar contra você e também pode permitir que aliases, perfis ou pontos de dados separados sejam conectados.
+**Não conceda permissões desnecessárias** | Essencial | Por padrão, muitos aplicativos populares de redes sociais pedem permissão para acessar seus contatos, registro de chamadas, localização, histórico de mensagens etc. Se eles não precisam desse acesso, não conceda.
+**Tenha cuidado com integrações de terceiros** | Essencial | Evite criar contas usando login de rede social e revogue o acesso de aplicativos sociais que você não usa mais.
+**Evite publicar dados geográficos enquanto ainda estiver no local** | Essencial | Se você pretende compartilhar qualquer conteúdo que revele uma localização, espere até ter saído daquele lugar. Isso é particularmente importante quando você estiver fazendo uma viagem, em restaurante, campus, hotel/resort, prédio público ou aeroporto.
+**Remova metadados antes de enviar mídia** | Opcional | A maioria dos smartphones e algumas câmeras anexam automaticamente um conjunto abrangente de dados adicionais (chamados dados EXIF) a cada fotografia. Remova esses dados antes de fazer upload.
+**Implemente camuflagem em imagens** | Avançado | Ferramentas como Fawkes podem ser usadas para alterar de forma muito sutil a estrutura dos rostos em fotos de um jeito imperceptível para humanos, mas que impede que sistemas de reconhecimento facial consigam reconhecer determinado rosto.
+**Considere mascarar GPS nas proximidades de casa** | Avançado | Mesmo que você nunca use redes sociais, sempre haverá outras pessoas que não são tão cuidadosas e podem revelar sua localização.
+**Considere informações falsas** | Avançado | Se você só quer ler e não pretende postar muito, considere usar um nome de alias e dados de contato falsos.
+**Não tenha contas em redes sociais** | Avançado | Redes sociais são fundamentalmente anti-privacidade, então, para máxima segurança e privacidade online, evite usar redes sociais convencionais.
 
-### Recommended Software
-- [Alternative Social Media](https://github.com/Lissy93/awesome-privacy#social-networks)
-- [Alternative Video Platforms](https://github.com/Lissy93/awesome-privacy#video-platforms)
-- [Alternative Blogging Platforms](https://github.com/Lissy93/awesome-privacy#blogging-platforms)
-- [News Readers and Aggregation](https://github.com/Lissy93/awesome-privacy#news-readers-and-aggregation)
-
-
-## Networks
-
-This section covers how you connect your devices to the internet securely, including configuring your router and setting up a VPN.
+### Software recomendado
+- [Redes Sociais Alternativas](https://github.com/Lissy93/awesome-privacy#social-networks)
+- [Plataformas de Vídeo Alternativas](https://github.com/Lissy93/awesome-privacy#video-platforms)
+- [Plataformas de Blogging Alternativas](https://github.com/Lissy93/awesome-privacy#blogging-platforms)
+- [Leitores e Agregadores de Notícias](https://github.com/Lissy93/awesome-privacy#news-readers-and-aggregation)
 
 
-**Security** | **Priority** | **Details and Hints**
+## Redes
+
+Esta seção cobre como você conecta seus dispositivos à internet com segurança, incluindo a configuração do seu roteador e de uma VPN.
+
+
+**Segurança** | **Prioridade** | **Detalhes e dicas**
 --- | --- | ---
-**Use a VPN** | Essential | Use a reputable, paid-for VPN. This can help protect sites you visit from logging your real IP, reduce the amount of data your ISP can collect, and increase protection on public WiFi.
-**Change your Router Password** | Essential | After getting a new router, change the password. Default router passwords are publicly available, meaning anyone within proximity would be able to connect.
-**Use WPA2, and a strong password** | Essential | There are different authentication protocols for connecting to WiFi. Currently, the most secure options are WPA2 and WPA3 (on newer routers).
-**Keep router firmware up-to-date** | Essential | Manufacturers release firmware updates that fix security vulnerabilities, implement new standards, and sometimes add features or improve the performance of your router.
-**Implement a Network-Wide VPN** | Optional | If you configure your VPN on your router, firewall, or home server, then traffic from all devices will be encrypted and routed through it, without needing individual VPN apps.
-**Protect against DNS leaks** | Optional | When using a VPN, it is extremely important to exclusively use the DNS server of your VPN provider or secure service.
-**Use a secure VPN Protocol** | Optional | OpenVPN and WireGuard are open source, lightweight, and secure tunneling protocols. Avoid using PPTP or SSTP.
-**Secure DNS** | Optional | Use DNS-over-HTTPS which performs DNS resolution via the HTTPS protocol, encrypting data between you and your DNS resolver.
-**Avoid the free router from your ISP** | Optional | Typically they’re manufactured cheaply in bulk in China, with insecure propriety firmware that doesn't receive regular security updates.
-**Whitelist MAC Addresses** | Optional | You can whitelist MAC addresses in your router settings, disallowing any unknown devices to immediately connect to your network, even if they know your credentials.
-**Change the Router’s Local IP Address** | Optional | It is possible for a malicious script in your web browser to exploit a cross-site scripting vulnerability, accessing known-vulnerable routers at their local IP address and tampering with them.
-**Don't Reveal Personal Info in SSID** | Optional | You should update your network name, choosing an SSID that does not identify you, include your flat number/address, and does not specify the device brand/model.
-**Opt-Out Router Listings** | Optional | WiFi SSIDs are scanned, logged, and then published on various websites, which is a serious privacy concern for some.
-**Hide your SSID** | Optional | Your router's Service Set Identifier is simply the network name. If it is not visible, it may receive less abuse.
-**Disable WPS** | Optional | Wi-Fi Protected Setup provides an easier method to connect, without entering a long WiFi password, but WPS introduces a series of major security issues.
-**Disable UPnP** | Optional | Universal Plug and Play allows applications to automatically forward a port on your router, but it has a long history of serious security issues.
-**Use a Guest Network for Guests** | Optional | Do not grant access to your primary WiFi network to visitors, as it enables them to interact with other devices on the network.
-**Change your Router's Default IP** | Optional | Modifying your router admin panel's default IP address will make it more difficult for malicious scripts targeting local IP addresses.
-**Kill unused processes and services on your router** | Optional | Services like Telnet and SSH that provide command-line access to devices should never be exposed to the internet and should also be disabled on the local network unless they're actually needed.
-**Don't have Open Ports** | Optional | Close any open ports on your router that are not needed. Open ports provide an easy entrance for hackers.
-**Disable Unused Remote Access Protocols** | Optional | When protocols such as PING, Telnet, SSH, UPnP, and HNAP etc are enabled, they allow your router to be probed from anywhere in the world.
-**Disable Cloud-Based Management** | Optional | You should treat your router's admin panel with the utmost care, as considerable damage can be caused if an attacker is able to gain access.
-**Manage Range Correctly** | Optional | It's common to want to pump your router's range to the max, but if you reside in a smaller flat, your attack surface is increased when your WiFi network can be picked up across the street.
-**Route all traffic through [Tor](https://awesome-privacy.xyz/networking/mix-networks/tor)** | Advanced | VPNs have their weaknesses. For increased security, route all your internet traffic through the [Tor](https://awesome-privacy.xyz/networking/mix-networks/tor) network.
-**Disable WiFi on all Devices** | Advanced | Connecting to even a secure WiFi network increases your attack surface. Disabling your home WiFi and connect each device via Ethernet.
+**Use uma VPN** | Essencial | Use uma VPN paga e respeitável. Isso pode ajudar a proteger sua privacidade, impedindo que sites registrem seu IP real, reduzindo a quantidade de dados que seu ISP pode coletar e aumentando a proteção em WiFi público.
+**Troque a senha do seu roteador** | Essencial | Depois de obter um novo roteador, troque a senha. Senhas padrão de roteadores são publicamente conhecidas, o que significa que qualquer pessoa nas proximidades poderia se conectar.
+**Use WPA2 e uma senha forte** | Essencial | Existem diferentes protocolos de autenticação para se conectar ao WiFi. Atualmente, as opções mais seguras são WPA2 e WPA3 (em roteadores mais novos).
+**Mantenha o firmware do roteador atualizado** | Essencial | Fabricantes lançam atualizações de firmware que corrigem vulnerabilidades de segurança, implementam novos padrões e às vezes adicionam recursos ou melhoram o desempenho do seu roteador.
+**Implemente uma VPN em toda a rede** | Opcional | Se você configurar sua VPN no roteador, firewall ou servidor doméstico, então o tráfego de todos os dispositivos será criptografado e roteado por ela, sem necessidade de aplicativos VPN individuais.
+**Proteja-se contra vazamentos de DNS** | Opcional | Ao usar uma VPN, é extremamente importante usar exclusivamente o servidor DNS do seu provedor VPN ou de um serviço seguro.
+**Use um protocolo VPN seguro** | Opcional | OpenVPN e WireGuard são protocolos de tunelamento de código aberto, leves e seguros. Evite usar PPTP ou SSTP.
+**DNS seguro** | Opcional | Use DNS-over-HTTPS, que faz a resolução de DNS via protocolo HTTPS, criptografando os dados entre você e seu resolvedor DNS.
+**Evite o roteador “gratuito” do seu ISP** | Opcional | Normalmente, eles são fabricados em massa de forma barata, com firmware proprietário inseguro que não recebe atualizações regulares de segurança.
+**Use whitelist de endereços MAC** | Opcional | Você pode colocar endereços MAC em whitelist nas configurações do roteador, impedindo que dispositivos desconhecidos se conectem imediatamente à sua rede, mesmo que conheçam suas credenciais.
+**Altere o endereço IP local do roteador** | Opcional | É possível que um script malicioso no seu navegador explore uma vulnerabilidade de cross-site scripting, acessando roteadores vulneráveis conhecidos em seu endereço IP local e adulterando-os.
+**Não revele informações pessoais no SSID** | Opcional | Você deve atualizar o nome da sua rede, escolhendo um SSID que não o identifique, não inclua número do apartamento/endereço e não especifique a marca/modelo do dispositivo.
+**Saia de listagens de roteadores** | Opcional | SSIDs de WiFi são escaneados, registrados e depois publicados em vários sites, o que é uma séria preocupação de privacidade para algumas pessoas.
+**Oculte seu SSID** | Opcional | O Service Set Identifier do seu roteador é simplesmente o nome da rede. Se ele não estiver visível, pode sofrer menos abusos.
+**Desative WPS** | Opcional | Wi-Fi Protected Setup oferece um método mais fácil de conexão, sem inserir uma senha longa de WiFi, mas WPS introduz uma série de grandes problemas de segurança.
+**Desative UPnP** | Opcional | Universal Plug and Play permite que aplicativos encaminhem automaticamente uma porta no seu roteador, mas tem um longo histórico de problemas sérios de segurança.
+**Use uma rede de convidados para visitantes** | Opcional | Não conceda acesso à sua rede WiFi principal a visitantes, pois isso permite que interajam com outros dispositivos na rede.
+**Mude o IP padrão do seu roteador** | Opcional | Modificar o endereço IP padrão do painel administrativo do seu roteador tornará mais difícil que scripts maliciosos direcionados a endereços IP locais atuem com sucesso.
+**Elimine processos e serviços não usados no roteador** | Opcional | Serviços como Telnet e SSH que fornecem acesso por linha de comando a dispositivos nunca devem ficar expostos à internet e também devem ser desabilitados na rede local, a menos que sejam realmente necessários.
+**Não tenha portas abertas** | Opcional | Feche quaisquer portas abertas no seu roteador que não sejam necessárias. Portas abertas fornecem uma entrada fácil para hackers.
+**Desative protocolos de acesso remoto não utilizados** | Opcional | Quando protocolos como PING, Telnet, SSH, UPnP e HNAP etc. estão habilitados, eles permitem que seu roteador seja sondado de qualquer lugar do mundo.
+**Desative gerenciamento baseado em nuvem** | Opcional | Você deve tratar o painel administrativo do seu roteador com o máximo cuidado, pois danos consideráveis podem ser causados se um invasor conseguir acesso.
+**Gerencie corretamente o alcance** | Opcional | É comum querer aumentar o alcance do roteador ao máximo, mas, se você mora em um apartamento menor, sua superfície de ataque aumenta quando sua rede WiFi pode ser detectada do outro lado da rua.
+**Roteie todo o tráfego por [Tor](https://awesome-privacy.xyz/networking/mix-networks/tor)** | Avançado | VPNs têm suas fraquezas. Para aumentar a segurança, roteie todo o seu tráfego de internet pela rede [Tor](https://awesome-privacy.xyz/networking/mix-networks/tor).
+**Desative WiFi em todos os dispositivos** | Avançado | Conectar-se até mesmo a uma rede WiFi segura aumenta sua superfície de ataque. Desative o WiFi de casa e conecte cada dispositivo via Ethernet.
 
-### Recommended Software
-- [Virtual Private Networks](https://github.com/Lissy93/awesome-privacy#virtual-private-networks)
-- [Mix Networks](https://github.com/Lissy93/awesome-privacy#mix-networks)
-- [Router Firmware](https://github.com/Lissy93/awesome-privacy#router-firmware)
-- [Open Source Proxies](https://github.com/Lissy93/awesome-privacy#proxies)
-- [DNS Providers](https://github.com/Lissy93/awesome-privacy#dns)
+### Software recomendado
+- [Redes Privadas Virtuais](https://github.com/Lissy93/awesome-privacy#virtual-private-networks)
+- [Redes Mistas](https://github.com/Lissy93/awesome-privacy#mix-networks)
+- [Firmware para Roteadores](https://github.com/Lissy93/awesome-privacy#router-firmware)
+- [Proxies Open Source](https://github.com/Lissy93/awesome-privacy#proxies)
+- [Provedores de DNS](https://github.com/Lissy93/awesome-privacy#dns)
 - [Firewalls](https://github.com/Lissy93/awesome-privacy#firewalls)
-- [Network Analysis Tools](https://github.com/Lissy93/awesome-privacy#network-analysis)
-- [Self-Hosted Network Security Tools](https://github.com/Lissy93/awesome-privacy#self-hosted-network-security)
+- [Ferramentas de Análise de Rede](https://github.com/Lissy93/awesome-privacy#network-analysis)
+- [Ferramentas de Segurança de Rede Self-Hosted](https://github.com/Lissy93/awesome-privacy#self-hosted-network-security)
 
 
-## Mobile Devices
+## Dispositivos Móveis
 
-Smart phones have revolutionized so many aspects of life and brought the world to our fingertips. For many of us, smart phones are our primary means of communication, entertainment and access to knowledge. But while they've brought convenience to whole new level, there's some ugly things going on behind the screen.
-Geo-tracking is used to trace our every move, and we have little control over who has this data- your phone is even able to [track your location without GPS](https://gizmodo.com/how-to-track-a-cellphone-without-gps-or-consent-1821125371). Over the years numerous reports that surfaced, outlining ways in which your phone's [mic can eavesdrop](https://www.independent.co.uk/life-style/gadgets-and-tech/news/smartphone-apps-listening-privacy-alphonso-shazam-advertising-pool-3d-honey-quest-a8139451.html), and the [camera can watch you](https://www.businessinsider.com/hackers-governments-smartphone-iphone-camera-wikileaks-cybersecurity-hack-privacy-webcam-2017-6)- all without your knowledge or consent. And then there's the malicious apps, lack of security patches and potential/ likely backdoors.
-Using a smart phone generates a lot of data about you- from information you intentionally share, to data silently generated from your actions. It can be scary to see what Google, Microsoft, Apple and Facebook know about us- sometimes they know more than our closest family. It's hard to comprehend what your data will reveal, especially in conjunction with other data.
-This data is used for [far more than just advertising](https://internethealthreport.org/2018/the-good-the-bad-and-the-ugly-sides-of-data-tracking/) - more often it's used to rate people for finance, insurance and employment. Targeted ads can even be used for fine-grained surveillance (see [ADINT](https://adint.cs.washington.edu))
-More of us are concerned about how [governments use collect and use our smart phone data](https://www.statista.com/statistics/373916/global-opinion-online-monitoring-government/), and rightly so, federal agencies often [request our data from Google](https://www.statista.com/statistics/273501/global-data-requests-from-google-by-federal-agencies-and-governments/), [Facebook](https://www.statista.com/statistics/287845/global-data-requests-from-facebook-by-federal-agencies-and-governments/), Apple, Microsoft, Amazon, and other tech companies. Sometimes requests are made in bulk, returning detailed information on everybody within a certain geo-fence, [often for innocent people](https://www.nytimes.com/interactive/2019/04/13/us/google-location-tracking-police.html). And this doesn't include all of the internet traffic that intelligence agencies around the world have unhindered access to.
+Smartphones revolucionaram muitos aspectos da vida e colocaram o mundo na ponta dos nossos dedos. Para muitos de nós, smartphones são nosso principal meio de comunicação, entretenimento e acesso ao conhecimento. Mas, embora tenham trazido conveniência a outro nível, há coisas bem desagradáveis acontecendo por trás da tela.
+Rastreamento geográfico é usado para traçar cada movimento nosso, e temos pouco controle sobre quem possui esses dados — seu telefone é até capaz de [rastrear sua localização sem GPS](https://gizmodo.com/how-to-track-a-cellphone-without-gps-or-consent-1821125371). Ao longo dos anos, surgiram inúmeros relatórios mostrando maneiras pelas quais o [microfone](https://www.independent.co.uk/life-style/gadgets-and-tech/news/smartphone-apps-listening-privacy-alphonso-shazam-advertising-pool-3d-honey-quest-a8139451.html) do seu telefone pode espioná-lo e a [câmera pode observá-lo](https://www.businessinsider.com/hackers-governments-smartphone-iphone-camera-wikileaks-cybersecurity-hack-privacy-webcam-2017-6) — tudo sem seu conhecimento ou consentimento. E depois há aplicativos maliciosos, falta de correções de segurança e possíveis/prováveis portas dos fundos.
+Usar um smartphone gera muitos dados sobre você — desde informações que você compartilha intencionalmente até dados gerados silenciosamente por suas ações. Pode ser assustador ver o que Google, Microsoft, Apple e Facebook sabem sobre nós — às vezes sabem mais do que nossa família mais próxima. É difícil compreender o que seus dados revelarão, especialmente em conjunto com outros dados.
+Esses dados são usados para [muito mais do que apenas publicidade](https://internethealthreport.org/2018/the-good-the-bad-and-the-ugly-sides-of-data-tracking/) — com mais frequência, são usados para avaliar pessoas em finanças, seguros e emprego. Anúncios direcionados podem até ser usados para vigilância refinada (veja [ADINT](https://adint.cs.washington.edu)).
+Mais pessoas estão preocupadas com a forma como [governos coletam e usam dados de smartphones](https://www.statista.com/statistics/373916/global-opinion-online-monitoring-government/), e com razão: agências federais frequentemente [solicitam nossos dados ao Google](https://www.statista.com/statistics/273501/global-data-requests-from-google-by-federal-agencies-and-governments/), [Facebook](https://www.statista.com/statistics/287845/global-data-requests-from-facebook-by-federal-agencies-and-governments/), Apple, Microsoft, Amazon e outras empresas de tecnologia. Às vezes, solicitações são feitas em massa, retornando informações detalhadas de todos dentro de um determinado cercamento geográfico, [muitas vezes de pessoas inocentes](https://www.nytimes.com/interactive/2019/04/13/us/google-location-tracking-police.html). E isso sem incluir todo o tráfego de internet ao qual agências de inteligência no mundo todo têm acesso irrestrito.
 
 
-**Security** | **Priority** | **Details and Hints**
+**Segurança** | **Prioridade** | **Detalhes e dicas**
 --- | --- | ---
-**Encrypt your Device** | Essential | In order to keep your data safe from physical access, use file encryption. This will mean if your device is lost or stolen, no one will have access to your data.
-**Turn off connectivity features that aren’t being used** | Essential | When you're not using WiFi, Bluetooth, NFC etc, turn those features off. There are several common threats that utilise these features.
-**Keep app count to a minimum** | Essential | Uninstall apps that you don’t need or use regularly. As apps often run in the background, slowing your device down, but also collecting data.
-**App Permissions** | Essential | Don’t grant apps permissions that they don’t need. For Android, [Bouncer](https://awesome-privacy.xyz/security-tools/mobile-apps/bouncer) is an app that allows you to grant temporary/ 1-off permissions.
-**Only install Apps from official source** | Essential | Applications on Apple App Store and Google Play Store are scanned and cryptographically signed, making them less likely to be malicious.
-**Be Careful of Phone Charging Threats** | Optional | Juice Jacking is when hackers use public charging stations to install malware on your smartphone or tablet through a compromised USB port.
-**Set up a mobile carrier PIN** | Essential | SIM hijacking is when a hacker is able to get your mobile number transferred to their sim. The easiest way to protect against this is to set up a PIN through your mobile provider.
-**Opt-out of Caller ID Listings** | Optional | To keep your details private, you can unlist your number from caller ID apps like TrueCaller, CallApp, SyncMe, and Hiya.
-**Use Offline Maps** | Optional | Consider using an offline maps app, such as OsmAnd or Organic Maps, to reduce data leaks from map apps.
-**Opt-out of personalized ads** | Optional | You can slightly reduce the amount of data collected by opting-out of seeing personalized ads.
-**Erase after too many login attempts** | Optional | To protect against an attacker brute forcing your pin, set your device to erase after too many failed login attempts.
-**Monitor Trackers** | Optional | [εxodus](https://awesome-privacy.xyz/security-tools/online-tools/εxodus) is a great service which lets you search for any app and see which trackers are embedded in it.
-**Use a Mobile Firewall** | Optional | To prevent applications from leaking privacy-sensitive data, you can install a firewall app.
-**Reduce Background Activity** | Optional | For Android, SuperFreeze makes it possible to entirely freeze all background activities on a per-app basis.
-**Sandbox Mobile Apps** | Optional | Prevent permission-hungry apps from accessing your private data with [Island](https://awesome-privacy.xyz/security-tools/mobile-apps/island), a sandbox environment.
-**Tor Traffic** | Advanced | [Orbot](https://awesome-privacy.xyz/security-tools/mobile-apps/orbot) provides a system-wide Tor connection, which will help protect you from surveillance and public WiFi threats.
-**Avoid Custom Virtual Keyboards** | Optional | It is recommended to stick with your device's stock keyboard. If you choose to use a third-party keyboard app, ensure it is reputable.
-**Restart Device Regularly** | Optional | Restarting your phone at least once a week will clear the app state cached in memory and may run more smoothly after a restart.
-**Avoid SMS** | Optional | SMS should not be used to receive 2FA codes or for communication, instead use an encrypted messaging app, such as [Signal](https://awesome-privacy.xyz/communication/encrypted-messaging/signal).
-**Keep your Number Private** | Optional | [MySudo](https://awesome-privacy.xyz/finance/virtual-credit-cards/mysudo) allows you to create and use virtual phone numbers for different people or groups. This is great for compartmentalisation.
-**Watch out for Stalkerware** | Optional | Stalkerware is malware that is installed directly onto your device by someone you know. The best way to get rid of it is through a factory reset.
-**Favor the Browser, over Dedicated App** | Optional | Where possible, consider using a secure browser to access sites, rather than installing dedicated applications.
-**Consider running a custom ROM (Android)** | Advanced | If you're concerned about your device manufacturer collecting too much personal information, consider a privacy-focused custom ROM.
+**Criptografe seu dispositivo** | Essencial | Para manter seus dados protegidos contra acesso físico, use criptografia de arquivos. Isso significa que, se seu dispositivo for perdido ou roubado, ninguém terá acesso aos seus dados.
+**Desative recursos de conectividade que não estejam sendo usados** | Essencial | Quando você não estiver usando WiFi, Bluetooth, NFC etc., desligue esses recursos. Há várias ameaças comuns que exploram essas funcionalidades.
+**Mantenha o número de apps no mínimo** | Essencial | Desinstale aplicativos de que você não precisa ou usa regularmente. Como apps frequentemente rodam em segundo plano, eles não apenas deixam o dispositivo mais lento como também coletam dados.
+**Permissões de aplicativos** | Essencial | Não conceda aos apps permissões de que eles não precisam. No Android, [Bouncer](https://awesome-privacy.xyz/security-tools/mobile-apps/bouncer) é um aplicativo que permite conceder permissões temporárias/de uso único.
+**Instale apps apenas de fontes oficiais** | Essencial | Aplicativos na Apple App Store e Google Play Store são escaneados e assinados criptograficamente, tornando-os menos propensos a serem maliciosos.
+**Tenha cuidado com ameaças ao carregar o telefone** | Opcional | Juice Jacking é quando hackers usam estações públicas de recarga para instalar malware no seu smartphone ou tablet por meio de uma porta USB comprometida.
+**Configure um PIN da operadora móvel** | Essencial | SIM hijacking é quando um hacker consegue transferir seu número de celular para o SIM dele. A forma mais fácil de se proteger é configurar um PIN por meio da sua operadora.
+**Saia de listagens de identificador de chamadas** | Opcional | Para manter seus dados privados, você pode remover seu número de apps de identificador de chamadas como TrueCaller, CallApp, SyncMe e Hiya.
+**Use mapas offline** | Opcional | Considere usar um aplicativo de mapas offline, como OsmAnd ou Organic Maps, para reduzir vazamentos de dados de apps de mapas.
+**Desative anúncios personalizados** | Opcional | Você pode reduzir ligeiramente a quantidade de dados coletados optando por não ver anúncios personalizados.
+**Apague após muitas tentativas de login** | Opcional | Para se proteger contra um invasor tentando força bruta no seu PIN, configure seu dispositivo para apagar dados após muitas tentativas de login falhas.
+**Monitore rastreadores** | Opcional | [εxodus](https://awesome-privacy.xyz/security-tools/online-tools/εxodus) é um ótimo serviço que permite pesquisar qualquer aplicativo e ver quais rastreadores estão embutidos nele.
+**Use um firewall móvel** | Opcional | Para evitar que aplicativos vazem dados sensíveis à privacidade, você pode instalar um aplicativo de firewall.
+**Reduza atividade em segundo plano** | Opcional | No Android, SuperFreeze torna possível congelar completamente todas as atividades em segundo plano por aplicativo.
+**Use sandbox para aplicativos móveis** | Opcional | Impedir que apps famintos por permissões acessem seus dados privados com [Island](https://awesome-privacy.xyz/security-tools/mobile-apps/island), um ambiente sandbox.
+**Tráfego Tor** | Avançado | [Orbot](https://awesome-privacy.xyz/security-tools/mobile-apps/orbot) oferece uma conexão Tor em todo o sistema, o que ajudará a protegê-lo contra vigilância e ameaças em WiFi público.
+**Evite teclados virtuais personalizados** | Opcional | Recomenda-se usar o teclado padrão do seu dispositivo. Se você optar por usar um app de teclado de terceiros, certifique-se de que ele seja confiável.
+**Reinicie o dispositivo regularmente** | Opcional | Reiniciar o telefone pelo menos uma vez por semana limpará o estado dos aplicativos em cache na memória e poderá fazê-lo funcionar com mais fluidez depois da reinicialização.
+**Evite SMS** | Opcional | SMS não deve ser usado para receber códigos 2FA nem para comunicação; em vez disso, use um aplicativo de mensagens criptografadas, como [Signal](https://awesome-privacy.xyz/communication/encrypted-messaging/signal).
+**Mantenha seu número privado** | Opcional | [MySudo](https://awesome-privacy.xyz/finance/virtual-credit-cards/mysudo) permite criar e usar números de telefone virtuais para pessoas ou grupos diferentes. Isso é ótimo para compartimentalização.
+**Fique atento a stalkerware** | Opcional | Stalkerware é malware instalado diretamente no seu dispositivo por alguém que você conhece. A melhor maneira de se livrar disso é fazendo uma restauração de fábrica.
+**Prefira o navegador a aplicativos dedicados** | Opcional | Sempre que possível, considere usar um navegador seguro para acessar sites, em vez de instalar aplicativos dedicados.
+**Considere executar uma ROM personalizada (Android)** | Avançado | Se você está preocupado com o fabricante do seu dispositivo coletando informações pessoais demais, considere uma ROM personalizada focada em privacidade.
 
-### Recommended Software
-- [Mobile Apps, for Security + Privacy](https://github.com/Lissy93/awesome-privacy#mobile-apps)
-- [Encrypted Messaging](https://github.com/Lissy93/awesome-privacy#encrypted-messaging)
-- [Mobile Operation Systems](https://github.com/Lissy93/awesome-privacy#mobile-operating-systems)
-
-
-## Personal Computers
-
-Although Windows and OS X are easy to use and convenient, they both are far from secure. Your OS provides the interface between hardware and your applications, so if compromised can have detrimental effects.
+### Software recomendado
+- [Aplicativos Móveis para Segurança + Privacidade](https://github.com/Lissy93/awesome-privacy#mobile-apps)
+- [Mensagens Criptografadas](https://github.com/Lissy93/awesome-privacy#encrypted-messaging)
+- [Sistemas Operacionais Móveis](https://github.com/Lissy93/awesome-privacy#mobile-operating-systems)
 
 
-**Security** | **Priority** | **Details and Hints**
+## Computadores Pessoais
+
+Embora Windows e OS X sejam fáceis de usar e convenientes, ambos estão longe de ser seguros. Seu SO fornece a interface entre o hardware e seus aplicativos, então, se for comprometido, pode ter efeitos prejudiciais.
+
+
+**Segurança** | **Prioridade** | **Detalhes e dicas**
 --- | --- | ---
-**Keep your System up-to-date** | Essential | System updates contain fixes/patches for security issues, improve performance, and sometimes add new features. Install new updates when prompted.
-**Encrypt your Device** | Essential | Use BitLocker for Windows, FileVault on MacOS, or LUKS on Linux, to enable full disk encryption. This prevents unauthorized access if your computer is lost or stolen.
-**Backup Important Data** | Essential | Maintaining encrypted backups prevents loss due to ransomware, theft, or damage. Consider using [Cryptomator](https://awesome-privacy.xyz/security-tools/mobile-apps/cryptomator) for cloud files or [VeraCrypt](https://awesome-privacy.xyz/essentials/file-encryption/veracrypt) for USB drives.
-**Be Careful Plugging USB Devices into your Computer** | Essential | USB devices can pose serious threats. Consider making a USB sanitizer with CIRCLean to safely check USB devices.
-**Activate Screen-Lock when Idle** | Essential | Lock your computer when away and set it to require a password on resume from screensaver or sleep to prevent unauthorized access.
-**Disable Cortana or Siri** | Essential | Voice-controlled assistants can have privacy implications due to data sent back for processing. Disable or limit their listening capabilities.
-**Review your Installed Apps** | Essential | Keep installed applications to a minimum to reduce exposure to vulnerabilities and regularly clear application caches.
-**Manage Permissions** | Essential | Control which apps have access to your location, camera, microphone, contacts, and other sensitive information.
-**Disallow Usage Data from being sent to the Cloud** | Essential | Limit the amount of usage information or feedback sent to the cloud to protect your privacy.
-**Avoid Quick Unlock** | Essential | Use a strong password instead of biometrics or short PINs for unlocking your computer to enhance security.
-**Power Off Computer, instead of Standby** | Essential | Shut down your device when not in use, especially if your disk is encrypted, to keep data secure.
-**Don't link your PC with your Microsoft or Apple Account** | Optional | Use a local account only to prevent data syncing and exposure. Avoid using sync services that compromise privacy.
-**Check which Sharing Services are Enabled** | Optional | Disable network sharing features you are not using to close gateways to common threats.
-**Don't use Root/Admin Account for Non-Admin Tasks** | Optional | Use an unprivileged user account for daily tasks and only elevate permissions for administrative changes to mitigate vulnerabilities.
-**Block Webcam + Microphone** | Optional | Cover your webcam when not in use and consider blocking unauthorized audio recording to protect privacy.
-**Use a Privacy Filter** | Optional | Use a screen privacy filter in public spaces to prevent shoulder surfing and protect sensitive information.
-**Physically Secure Device** | Optional | Use a Kensington Lock to secure your laptop in public spaces and consider port locks to prevent unauthorized physical access.
-**Don't Charge Devices from your PC** | Optional | Use a power bank or AC wall charger instead of your PC to avoid security risks associated with USB connections.
-**Randomize your hardware address on Wi-Fi** | Optional | Modify or randomize your MAC address to protect against tracking across different WiFi networks.
-**Use a Firewall** | Optional | Install a firewall app to monitor and block unwanted internet access by certain applications, protecting against remote access attacks and privacy breaches.
-**Protect Against Software Keyloggers** | Optional | Use key stroke encryption tools to protect against software keyloggers recording your keystrokes.
-**Check Keyboard Connection** | Optional | Be vigilant for hardware keyloggers when using public or unfamiliar computers by checking keyboard connections.
-**Prevent Keystroke Injection Attacks** | Optional | Lock your PC when away and consider using USBGuard or similar tools to protect against keystroke injection attacks.
-**Don't use commercial "Free" Anti-Virus** | Optional | Rely on built-in security tools and avoid free anti-virus applications due to their potential for privacy invasion and data collection.
-**Periodically check for Rootkits** | Advanced | Regularly check for rootkits to detect and mitigate full system control threats using tools like [chkrootkit](https://awesome-privacy.xyz/operating-systems/linux-defenses/chkrootkit).
-**BIOS Boot Password** | Advanced | Enable a BIOS or UEFI password to add an additional security layer during boot-up, though be aware of its limitations.
-**Use a Security-Focused Operating System** | Advanced | Consider switching to Linux or a security-focused distro like QubeOS or [Tails](https://awesome-privacy.xyz/operating-systems/desktop-operating-systems/tails) for enhanced privacy and security.
-**Make Use of VMs** | Advanced | Use virtual machines for risky activities or testing suspicious software to isolate potential threats from your primary system.
-**Compartmentalize** | Advanced | Isolate different programs and data sources from one another as much as possible to limit the extent of potential breaches.
-**Disable Undesired Features (Windows)** | Advanced | Disable unnecessary Windows "features" and services that run in the background to reduce data collection and resource use.
-**Secure Boot** | Advanced | Ensure that Secure Boot is enabled to prevent malware from replacing your boot loader and other critical software.
-**Secure SSH Access** | Advanced | Take steps to protect SSH access from attacks by changing the default port, using SSH keys, and configuring firewalls.
-**Close Un-used Open Ports** | Advanced | Turn off services listening on external ports that are not needed to protect against remote exploits and improve security.
-**Implement Mandatory Access Control** | Advanced | Restrict privileged access to limit the damage that can be done if a system is compromised.
-**Use Canary Tokens** | Advanced | Deploy canary tokens to detect unauthorized access to your files or emails faster and gather information about the intruder.
+**Mantenha seu sistema atualizado** | Essencial | Atualizações do sistema contêm correções/patches para problemas de segurança, melhoram o desempenho e às vezes adicionam novos recursos. Instale novas atualizações quando solicitado.
+**Criptografe seu dispositivo** | Essencial | Use BitLocker no Windows, FileVault no MacOS ou LUKS no Linux para habilitar criptografia completa de disco. Isso evita acesso não autorizado se seu computador for perdido ou roubado.
+**Faça backup de dados importantes** | Essencial | Manter backups criptografados evita perdas causadas por ransomware, roubo ou danos. Considere usar [Cryptomator](https://awesome-privacy.xyz/security-tools/mobile-apps/cryptomator) para arquivos em nuvem ou [VeraCrypt](https://awesome-privacy.xyz/essentials/file-encryption/veracrypt) para unidades USB.
+**Tenha cuidado ao conectar dispositivos USB ao seu computador** | Essencial | Dispositivos USB podem representar ameaças sérias. Considere montar um sanitizador USB com CIRCLean para verificar dispositivos USB com segurança.
+**Ative o bloqueio de tela quando ocioso** | Essencial | Bloqueie seu computador quando se ausentar e configure-o para exigir senha ao retomar do protetor de tela ou do modo de suspensão para evitar acesso não autorizado.
+**Desative Cortana ou Siri** | Essencial | Assistentes controlados por voz podem trazer implicações de privacidade devido aos dados enviados de volta para processamento. Desative-os ou limite seus recursos de escuta.
+**Revise seus aplicativos instalados** | Essencial | Mantenha o mínimo de aplicativos instalados para reduzir a exposição a vulnerabilidades e limpe regularmente os caches de aplicativos.
+**Gerencie permissões** | Essencial | Controle quais apps têm acesso à sua localização, câmera, microfone, contatos e outras informações sensíveis.
+**Não permita que dados de uso sejam enviados para a nuvem** | Essencial | Limite a quantidade de informações de uso ou feedback enviada para a nuvem para proteger sua privacidade.
+**Evite desbloqueio rápido** | Essencial | Use uma senha forte em vez de biometria ou PINs curtos para desbloquear seu computador e aumentar a segurança.
+**Desligue o computador em vez de deixá-lo em espera** | Essencial | Desligue o dispositivo quando não estiver em uso, especialmente se o disco estiver criptografado, para manter os dados seguros.
+**Não vincule seu PC à sua conta Microsoft ou Apple** | Opcional | Use apenas uma conta local para evitar sincronização e exposição de dados. Evite usar serviços de sincronização que comprometam a privacidade.
+**Verifique quais serviços de compartilhamento estão habilitados** | Opcional | Desative recursos de compartilhamento de rede que você não utiliza para fechar portas de entrada para ameaças comuns.
+**Não use conta Root/Admin para tarefas sem administração** | Opcional | Use uma conta de usuário sem privilégios para tarefas diárias e eleve permissões apenas para mudanças administrativas, a fim de mitigar vulnerabilidades.
+**Bloqueie webcam + microfone** | Opcional | Cubra sua webcam quando não estiver em uso e considere bloquear gravação de áudio não autorizada para proteger a privacidade.
+**Use um filtro de privacidade** | Opcional | Use um filtro de privacidade de tela em espaços públicos para evitar shoulder surfing e proteger informações sensíveis.
+**Proteja fisicamente o dispositivo** | Opcional | Use um Kensington Lock para proteger seu laptop em espaços públicos e considere travas de porta para impedir acesso físico não autorizado.
+**Não carregue dispositivos a partir do seu PC** | Opcional | Use uma bateria externa (power bank) ou carregador de parede AC em vez do PC para evitar riscos de segurança associados a conexões USB.
+**Randomize seu endereço de hardware no Wi-Fi** | Opcional | Modifique ou randomize seu endereço MAC para se proteger contra rastreamento em diferentes redes WiFi.
+**Use um firewall** | Opcional | Instale um aplicativo de firewall para monitorar e bloquear acessos indesejados à internet por certos aplicativos, protegendo contra ataques de acesso remoto e violações de privacidade.
+**Proteja-se contra keyloggers de software** | Opcional | Use ferramentas de criptografia de teclas digitadas para se proteger contra keyloggers de software registrando suas teclas.
+**Verifique a conexão do teclado** | Opcional | Fique atento a keyloggers de hardware ao usar computadores públicos ou desconhecidos, verificando as conexões do teclado.
+**Previna ataques de injeção de teclas** | Opcional | Bloqueie seu PC quando estiver longe e considere usar USBGuard ou ferramentas semelhantes para se proteger contra ataques de injeção de teclas.
+**Não use antivírus comercial “gratuito”** | Opcional | Confie nas ferramentas de segurança integradas e evite aplicativos antivírus gratuitos devido ao potencial de invasão de privacidade e coleta de dados.
+**Verifique periodicamente a presença de rootkits** | Avançado | Verifique regularmente a presença de rootkits para detectar e mitigar ameaças de controle total do sistema usando ferramentas como [chkrootkit](https://awesome-privacy.xyz/operating-systems/linux-defenses/chkrootkit).
+**Senha de boot da BIOS** | Avançado | Habilite uma senha de BIOS ou UEFI para adicionar uma camada extra de segurança durante a inicialização, embora você deva estar ciente de suas limitações.
+**Use um sistema operacional focado em segurança** | Avançado | Considere migrar para Linux ou para uma distribuição focada em segurança, como QubeOS ou [Tails](https://awesome-privacy.xyz/operating-systems/desktop-operating-systems/tails), para mais privacidade e segurança.
+**Faça uso de VMs** | Avançado | Use máquinas virtuais para atividades arriscadas ou para testar softwares suspeitos, a fim de isolar ameaças potenciais do seu sistema principal.
+**Compartimentalize** | Avançado | Isole programas e fontes de dados diferentes uns dos outros tanto quanto possível para limitar a extensão de possíveis violações.
+**Desative recursos indesejados (Windows)** | Avançado | Desative “recursos” e serviços desnecessários do Windows que executam em segundo plano para reduzir coleta de dados e uso de recursos.
+**Inicialização Segura (Secure Boot)** | Avançado | Garanta que o Secure Boot esteja habilitado para impedir que malware substitua seu carregador de inicialização e outros softwares críticos.
+**Proteja o acesso SSH** | Avançado | Tome medidas para proteger o acesso SSH contra ataques alterando a porta padrão, usando chaves SSH e configurando firewalls.
+**Feche portas abertas não utilizadas** | Avançado | Desative serviços escutando em portas externas que não sejam necessários para se proteger contra exploits remotos e melhorar a segurança.
+**Implemente controle de acesso obrigatório** | Avançado | Restrinja o acesso privilegiado para limitar os danos que podem ser causados se um sistema for comprometido.
+**Use Canary Tokens** | Avançado | Implante canary tokens para detectar mais rapidamente acesso não autorizado a seus arquivos ou emails e coletar informações sobre o intruso.
 
-### Recommended Software
-- [Secure Operating Systems](https://github.com/Lissy93/awesome-privacy#desktop-operating-systems)
-- [Linux Defenses](https://github.com/Lissy93/awesome-privacy#linux-defences)
-- [Windows Defenses](https://github.com/Lissy93/awesome-privacy#windows-defences)
-- [Mac OS Defenses](https://github.com/Lissy93/awesome-privacy#mac-os-defences)
+### Software recomendado
+- [Sistemas Operacionais Seguros](https://github.com/Lissy93/awesome-privacy#desktop-operating-systems)
+- [Defesas para Linux](https://github.com/Lissy93/awesome-privacy#linux-defences)
+- [Defesas para Windows](https://github.com/Lissy93/awesome-privacy#windows-defences)
+- [Defesas para Mac OS](https://github.com/Lissy93/awesome-privacy#mac-os-defences)
 - [Anti-Malware](https://github.com/Lissy93/awesome-privacy#anti-malware)
 - [Firewalls](https://github.com/Lissy93/awesome-privacy#firewalls-1)
-- [File Encryption](https://github.com/Lissy93/awesome-privacy#file-encryption)
+- [Criptografia de Arquivos](https://github.com/Lissy93/awesome-privacy#file-encryption)
 
 
-## Smart Home
+## Casa Inteligente
 
-Home assistants (such as Google Home, Alexa and Siri) and other internet connected devices collect large amounts of personal data (including voice samples, location data, home details and logs of all interactions). Since you have limited control on what is being collected, how it's stored, and what it will be used for, this makes it hard to recommend any consumer smart-home products to anyone who cares about privacy and security.
-Security vs Privacy: There are many smart devices on the market that claim to increase the security of your home while being easy and convenient to use (Such as Smart Burglar Alarms, Internet Security Cameras, Smart Locks and Remote access Doorbells to name a few). These devices may appear to make security easier, but there is a trade-off in terms of privacy: as they collect large amounts of personal data, and leave you without control over how this is stored or used. The security of these devices is also questionable, since many of them can be (and are being) hacked, allowing an intruder to bypass detection with minimum effort.
-The most privacy-respecting option, would be to not use "smart" internet-connected devices in your home, and not to rely on a security device that requires an internet connection. But if you do, it is important to fully understand the risks of any given product, before buying it. Then adjust settings to increase privacy and security. The following checklist will help mitigate the risks associated with internet-connected home devices.
+Assistentes domésticos (como Google Home, Alexa e Siri) e outros dispositivos conectados à internet coletam grandes quantidades de dados pessoais (incluindo amostras de voz, dados de localização, detalhes da casa e registros de todas as interações). Como você tem controle limitado sobre o que está sendo coletado, como é armazenado e para que será usado, fica difícil recomendar qualquer produto de casa inteligente para consumidores que se importam com privacidade e segurança.
+Segurança vs Privacidade: Existem muitos dispositivos inteligentes no mercado que afirmam aumentar a segurança da sua casa ao mesmo tempo em que são fáceis e convenientes de usar (como alarmes inteligentes contra invasão, câmeras de segurança conectadas à internet, fechaduras inteligentes e campainhas com acesso remoto, para citar alguns). Esses dispositivos podem parecer tornar a segurança mais fácil, mas há uma troca em termos de privacidade: como coletam grandes quantidades de dados pessoais, você fica sem controle sobre como isso é armazenado ou usado. A segurança desses dispositivos também é questionável, já que muitos deles podem ser (e estão sendo) hackeados, permitindo que um invasor contorne a detecção com esforço mínimo.
+A opção que mais respeita a privacidade seria não usar dispositivos “inteligentes” conectados à internet em sua casa e não depender de um dispositivo de segurança que exija conexão com a internet. Mas, se você usar, é importante compreender totalmente os riscos de qualquer produto antes de comprá-lo. Depois, ajuste as configurações para aumentar privacidade e segurança. A checklist a seguir ajudará a mitigar os riscos associados a dispositivos domésticos conectados à internet.
 
-**Security** | **Priority** | **Details and Hints**
+**Segurança** | **Prioridade** | **Detalhes e dicas**
 --- | --- | ---
-**Rename devices to not specify brand/model** | Essential | Change default device names to something generic to prevent targeted attacks by obscuring brand or model information.
-**Disable microphone and camera when not in use** | Essential | Use hardware switches to turn off microphones and cameras on smart devices to protect against accidental recordings or targeted access.
-**Understand what data is collected, stored and transmitted** | Essential | Research and ensure comfort with the data handling practices of smart home devices before purchase, avoiding devices that share data with third parties.
-**Set privacy settings, and opt out of sharing data with third parties** | Essential | Adjust app settings for strictest privacy controls and opt-out of data sharing with third parties wherever possible.
-**Don't link your smart home devices to your real identity** | Essential | Use anonymous usernames and passwords, avoiding sign-up/log-in via social media or other third-party services to maintain privacy.
-**Keep firmware up-to-date** | Essential | Regularly update smart device firmware to apply security patches and enhancements.
-**Protect your Network** | Essential | Secure your home WiFi and network to prevent unauthorized access to smart devices.
-**Be wary of wearables** | Optional | Consider the extensive data collection capabilities of wearable devices and their implications for privacy.
-**Don't connect your home's critical infrastructure to the Internet** | Optional | Evaluate the risks of internet-connected thermostats, alarms, and detectors due to potential remote access by hackers.
-**Mitigate Alexa/ Google Home Risks** | Optional | Consider privacy-focused alternatives like [Mycroft](https://awesome-privacy.xyz/smart-home-and-iot/voice-assistants/mycroft) or use Project Alias to prevent idle listening by voice-activated assistants.
-**Monitor your home network closely** | Optional | Use tools like FingBox or router features to monitor for unusual network activity.
-**Deny Internet access where possible** | Advanced | Use firewalls to block internet access for devices that don't need it, limiting operation to local network use.
-**Assess risks** | Advanced | Consider the privacy implications for all household members and adjust device settings for security and privacy, such as disabling devices at certain times.
+**Renomeie dispositivos para não especificar marca/modelo** | Essencial | Altere nomes padrão dos dispositivos para algo genérico, a fim de evitar ataques direcionados ao ocultar informações de marca ou modelo.
+**Desative microfone e câmera quando não estiverem em uso** | Essencial | Use chaves físicas para desligar microfones e câmeras em dispositivos inteligentes para proteger contra gravações acidentais ou acesso direcionado.
+**Entenda quais dados são coletados, armazenados e transmitidos** | Essencial | Pesquise e garanta que você está confortável com as práticas de tratamento de dados de dispositivos de casa inteligente antes da compra, evitando dispositivos que compartilham dados com terceiros.
+**Ajuste as configurações de privacidade e desative o compartilhamento de dados com terceiros** | Essencial | Ajuste as configurações dos aplicativos para os controles de privacidade mais rígidos e desative o compartilhamento de dados com terceiros sempre que possível.
+**Não vincule seus dispositivos de casa inteligente à sua identidade real** | Essencial | Use nomes de usuário e senhas anônimos, evitando cadastro/login via redes sociais ou outros serviços de terceiros para manter a privacidade.
+**Mantenha o firmware atualizado** | Essencial | Atualize regularmente o firmware dos dispositivos inteligentes para aplicar correções e melhorias de segurança.
+**Proteja sua rede** | Essencial | Proteja seu WiFi doméstico e sua rede para impedir acesso não autorizado a dispositivos inteligentes.
+**Tenha cautela com wearables** | Opcional | Considere a ampla capacidade de coleta de dados de dispositivos vestíveis e suas implicações para a privacidade.
+**Não conecte a infraestrutura crítica da sua casa à internet** | Opcional | Avalie os riscos de termostatos, alarmes e detectores conectados à internet devido ao potencial de acesso remoto por hackers.
+**Mitigue riscos do Alexa/ Google Home** | Opcional | Considere alternativas focadas em privacidade, como [Mycroft](https://awesome-privacy.xyz/smart-home-and-iot/voice-assistants/mycroft), ou use Project Alias para impedir escuta ociosa por assistentes ativados por voz.
+**Monitore sua rede doméstica de perto** | Opcional | Use ferramentas como FingBox ou recursos do roteador para monitorar atividade de rede incomum.
+**Negue acesso à internet quando possível** | Avançado | Use firewalls para bloquear acesso à internet para dispositivos que não precisam dela, limitando a operação ao uso na rede local.
+**Avalie os riscos** | Avançado | Considere as implicações de privacidade para todos os membros da casa e ajuste as configurações dos dispositivos para segurança e privacidade, como desativá-los em determinados horários.
 
-### Recommended Software
-- [Home Automation](https://github.com/Lissy93/awesome-privacy#home-automation)
-- [AI Voice Assistants](https://github.com/Lissy93/awesome-privacy#ai-voice-assistants)
+### Software recomendado
+- [Automação Residencial](https://github.com/Lissy93/awesome-privacy#home-automation)
+- [Assistentes de Voz com IA](https://github.com/Lissy93/awesome-privacy#ai-voice-assistants)
 
 
-## Personal Finance
+## Finanças Pessoais
 
-Credit card fraud is the most common form of identity theft (with [133,015 reports in the US in 2017 alone](https://www.experian.com/blogs/ask-experian/identity-theft-statistics/)), and a total loss of $905 million, which was a 26% increase from the previous year. The with a median amount lost per person was $429 in 2017. It's more important than ever to take basic steps to protect yourself from falling victim
-Note about credit cards: Credit cards have technological methods in place to detect and stop some fraudulent transactions. Major payment processors implement this, by mining huge amounts of data from their card holders, in order to know a great deal about each persons spending habits. This data is used to identify fraud, but is also sold onto other data brokers. Credit cards are therefore good for security, but terrible for data privacy.
+Fraude com cartão de crédito é a forma mais comum de roubo de identidade (com [133.015 registros apenas nos EUA em 2017](https://www.experian.com/blogs/ask-experian/identity-theft-statistics/)) e uma perda total de US$ 905 milhões, o que representou um aumento de 26% em relação ao ano anterior. A perda mediana por pessoa foi de US$ 429 em 2017. É mais importante do que nunca tomar medidas básicas para se proteger de cair em golpes.
+Observação sobre cartões de crédito: cartões de crédito possuem métodos tecnológicos para detectar e impedir algumas transações fraudulentas. Grandes processadores de pagamento implementam isso minerando enormes quantidades de dados de seus portadores para conhecer muito sobre os hábitos de consumo de cada pessoa. Esses dados são usados para identificar fraude, mas também são vendidos a outros corretores de dados. Portanto, cartões de crédito são bons para segurança, mas péssimos para privacidade de dados.
 
-**Security** | **Priority** | **Details and Hints**
+**Segurança** | **Prioridade** | **Detalhes e dicas**
 --- | --- | ---
-**Sign up for Fraud Alerts and Credit Monitoring** | Essential | Enable fraud alerts and credit monitoring through Experian, TransUnion, or Equifax to be alerted of suspicious activity.
-**Apply a Credit Freeze** | Essential | Prevent unauthorized credit inquiries by freezing your credit through Experian, TransUnion, and Equifax.
-**Use Virtual Cards** | Optional | Utilize virtual card numbers for online transactions to protect your real banking details. Services like [Privacy.com](https://awesome-privacy.xyz/finance/virtual-credit-cards/privacy.com) and [MySudo](https://awesome-privacy.xyz/finance/virtual-credit-cards/mysudo) offer such features.
-**Use Cash for Local Transactions** | Optional | Pay with [Cash](https://awesome-privacy.xyz/finance/other-payment-methods/cash) for local and everyday purchases to avoid financial profiling by institutions.
-**Use Cryptocurrency for Online Transactions** | Optional | Opt for privacy-focused cryptocurrencies like [Monero](https://awesome-privacy.xyz/finance/cryptocurrencies/monero) for online transactions to maintain anonymity. Use cryptocurrencies wisely to ensure privacy.
-**Store Crypto Securely** | Advanced | Securely store cryptocurrencies using offline wallet generation, hardware wallets like [Trezor](https://awesome-privacy.xyz/finance/crypto-wallets/trezor) or [ColdCard](https://awesome-privacy.xyz/finance/crypto-wallets/coldcard), or consider long-term storage solutions like [CryptoSteel](https://awesome-privacy.xyz/finance/crypto-wallets/cryptosteel).
-**Buy Crypto Anonymously** | Advanced | Purchase cryptocurrencies without linking to your identity through services like [LocalBitcoins](https://awesome-privacy.xyz/finance/crypto-exchanges/localbitcoins), [Bisq](https://awesome-privacy.xyz/finance/crypto-exchanges/bisq), or Bitcoin ATMs.
-**Tumble/ Mix Coins** | Advanced | Use a bitcoin mixer or CoinJoin before converting Bitcoin to currency to obscure transaction trails.
-**Use an Alias Details for Online Shopping** | Advanced | For online purchases, consider using alias details, forwarding email addresses, VOIP numbers, and secure delivery methods to protect your identity.
-**Use alternate delivery address** | Advanced | Opt for deliveries to non-personal addresses such as PO Boxes, forwarding addresses, or local pickup locations to avoid linking purchases directly to you.
+**Cadastre-se para alertas de fraude e monitoramento de crédito** | Essencial | Habilite alertas de fraude e monitoramento de crédito por meio de Experian, TransUnion ou Equifax para ser avisado sobre atividade suspeita.
+**Aplique um congelamento de crédito** | Essencial | Impeça consultas de crédito não autorizadas congelando seu crédito em Experian, TransUnion e Equifax.
+**Use cartões virtuais** | Opcional | Utilize números de cartão virtual para transações online para proteger seus dados bancários reais. Serviços como [Privacy.com](https://awesome-privacy.xyz/finance/virtual-credit-cards/privacy.com) e [MySudo](https://awesome-privacy.xyz/finance/virtual-credit-cards/mysudo) oferecem esses recursos.
+**Use dinheiro em transações locais** | Opcional | Pague com [Cash](https://awesome-privacy.xyz/finance/other-payment-methods/cash) em compras locais e cotidianas para evitar perfilamento financeiro por instituições.
+**Use criptomoeda em transações online** | Opcional | Prefira criptomoedas focadas em privacidade, como [Monero](https://awesome-privacy.xyz/finance/cryptocurrencies/monero), em transações online para manter o anonimato. Use criptomoedas com sabedoria para garantir privacidade.
+**Armazene cripto com segurança** | Avançado | Armazene criptomoedas com segurança usando geração de carteiras offline, hardware wallets como [Trezor](https://awesome-privacy.xyz/finance/crypto-wallets/trezor) ou [ColdCard](https://awesome-privacy.xyz/finance/crypto-wallets/coldcard), ou considere soluções de armazenamento de longo prazo como [CryptoSteel](https://awesome-privacy.xyz/finance/crypto-wallets/cryptosteel).
+**Compre cripto anonimamente** | Avançado | Compre criptomoedas sem vinculá-las à sua identidade por meio de serviços como [LocalBitcoins](https://awesome-privacy.xyz/finance/crypto-exchanges/localbitcoins), [Bisq](https://awesome-privacy.xyz/finance/crypto-exchanges/bisq) ou caixas eletrônicos de Bitcoin.
+**Misture moedas** | Avançado | Use um mixer de bitcoin ou CoinJoin antes de converter Bitcoin em moeda para obscurecer rastros de transação.
+**Use detalhes de alias em compras online** | Avançado | Para compras online, considere usar detalhes de alias, endereços de email de encaminhamento, números VOIP e métodos de entrega seguros para proteger sua identidade.
+**Use endereço alternativo para entrega** | Avançado | Prefira entregas para endereços não pessoais, como caixas postais, endereços de encaminhamento ou pontos de retirada locais, para evitar vincular compras diretamente a você.
 
-### Recommended Software
-- [Virtual Credit Cards](https://github.com/Lissy93/awesome-privacy#virtual-credit-cards)
-- [Cryptocurrencies](https://github.com/Lissy93/awesome-privacy#cryptocurrencies)
-- [Crypto Wallets](https://github.com/Lissy93/awesome-privacy#crypto-wallets)
-- [Crypto Exchanges](https://github.com/Lissy93/awesome-privacy#crypto-exchanges)
-- [Other Payment Methods](https://github.com/Lissy93/awesome-privacy#other-payment-methods)
-- [Budgeting Tools](https://github.com/Lissy93/awesome-privacy#budgeting-tools)
+### Software recomendado
+- [Cartões de Crédito Virtuais](https://github.com/Lissy93/awesome-privacy#virtual-credit-cards)
+- [Criptomoedas](https://github.com/Lissy93/awesome-privacy#cryptocurrencies)
+- [Carteiras de Cripto](https://github.com/Lissy93/awesome-privacy#crypto-wallets)
+- [Exchanges de Cripto](https://github.com/Lissy93/awesome-privacy#crypto-exchanges)
+- [Outros Métodos de Pagamento](https://github.com/Lissy93/awesome-privacy#other-payment-methods)
+- [Ferramentas de Orçamento](https://github.com/Lissy93/awesome-privacy#budgeting-tools)
 
 
-## Human Aspect
+## Aspecto Humano
 
-Many data breaches, hacks and attacks are caused by human error. The following list contains steps you should take, to reduce the risk of this happening to you. Many of them are common sense, but it's worth takin note of.
+Muitas violações de dados, invasões e ataques são causados por erro humano. A lista a seguir contém medidas que você deve tomar para reduzir o risco de que isso aconteça com você. Muitas delas são senso comum, mas ainda assim vale a pena prestar atenção.
 
-**Security** | **Priority** | **Details and Hints**
+**Segurança** | **Prioridade** | **Detalhes e dicas**
 --- | --- | ---
-**Verify Recipients** | Essential | Emails can be easily spoofed. Verify the sender's authenticity, especially for sensitive actions, and prefer entering URLs manually rather than clicking links in emails.
-**Don't Trust Your Popup Notifications** | Essential | Fake pop-ups can be deployed by malicious actors. Always check the URL before entering any information on a popup.
-**Never Leave Device Unattended** | Essential | Unattended devices can be compromised even with strong passwords. Use encryption and remote erase features like Find My Phone for lost devices.
-**Prevent Camfecting** | Essential | Protect against camfecting by using webcam covers and microphone blockers. Mute home assistants when not in use or discussing sensitive matters.
-**Stay protected from shoulder surfers** | Essential | Use privacy screens on laptops and mobiles to prevent others from reading your screen in public spaces.
-**Educate yourself about phishing attacks** | Essential | Be cautious of phishing attempts. Verify URLs, context of received messages, and employ good security practices like using 2FA and not reusing passwords.
-**Watch out for Stalkerware** | Essential | Be aware of stalkerware installed by acquaintances for spying. Look out for signs like unusual battery usage and perform factory resets if suspected.
-**Install Reputable Software from Trusted Sources** | Essential | Only download software from legitimate sources and check files with tools like [Virus Total](https://awesome-privacy.xyz/security-tools/online-tools/virus-total) before installation.
-**Store personal data securely** | Essential | Ensure all personal data on devices or in the cloud is encrypted to protect against unauthorized access.
-**Obscure Personal Details from Documents** | Essential | When sharing documents, obscure personal details with opaque rectangles to prevent information leakage.
-**Do not assume a site is secure, just because it is `HTTPS`** | Essential | HTTPS does not guarantee a website's legitimacy. Verify URLs and exercise caution with personal data.
-**Use Virtual Cards when paying online** | Optional | Use virtual cards for online payments to protect your banking details and limit transaction risks.
-**Review application permissions** | Optional | Regularly review and manage app permissions to ensure no unnecessary access to sensitive device features.
-**Opt-out of public lists** | Optional | Remove yourself from public databases and marketing lists to reduce unwanted contacts and potential risks.
-**Never Provide Additional PII When Opting-Out** | Optional | Do not provide additional personal information when opting out of data services to avoid further data collection.
-**Opt-out of data sharing** | Optional | Many apps and services default to data sharing settings. Opt out to protect your data from being shared with third parties.
-**Review and update social media privacy** | Optional | Regularly check and update your social media settings due to frequent terms updates that may affect your privacy settings.
-**Compartmentalize** | Advanced | Keep different areas of digital activity separate to limit data exposure in case of a breach.
-**WhoIs Privacy Guard** | Advanced | Use WhoIs Privacy Guard for domain registrations to protect your personal information from public searches.
-**Use a forwarding address** | Advanced | Use a PO Box or forwarding address for mail to prevent companies from knowing your real address, adding a layer of privacy protection.
-**Use anonymous payment methods** | Advanced | Opt for anonymous payment methods like cryptocurrencies to avoid entering identifiable information online.
+**Verifique destinatários** | Essencial | Emails podem ser facilmente falsificados. Verifique a autenticidade do remetente, especialmente para ações sensíveis, e prefira digitar URLs manualmente em vez de clicar em links em emails.
+**Não confie nas suas notificações pop-up** | Essencial | Pop-ups falsos podem ser implantados por agentes maliciosos. Sempre verifique a URL antes de inserir qualquer informação em um pop-up.
+**Nunca deixe o dispositivo sem supervisão** | Essencial | Dispositivos sem supervisão podem ser comprometidos mesmo com senhas fortes. Use criptografia e recursos de apagamento remoto, como Find My Phone, para dispositivos perdidos.
+**Previna camfecting** | Essencial | Proteja-se contra camfecting usando tampas para webcam e bloqueadores de microfone. Coloque assistentes domésticos no mudo quando não estiverem em uso ou ao discutir assuntos sensíveis.
+**Proteja-se de shoulder surfers** | Essencial | Use telas de privacidade em laptops e celulares para impedir que outras pessoas leiam sua tela em espaços públicos.
+**Eduque-se sobre ataques de phishing** | Essencial | Tenha cuidado com tentativas de phishing. Verifique URLs, o contexto das mensagens recebidas e empregue boas práticas de segurança, como usar 2FA e não reutilizar senhas.
+**Fique atento a stalkerware** | Essencial | Esteja ciente de stalkerware instalado por conhecidos para espionagem. Procure sinais como uso incomum de bateria e realize restaurações de fábrica se suspeitar disso.
+**Instale software confiável de fontes confiáveis** | Essencial | Baixe software apenas de fontes legítimas e verifique arquivos com ferramentas como [Virus Total](https://awesome-privacy.xyz/security-tools/online-tools/virus-total) antes da instalação.
+**Armazene dados pessoais com segurança** | Essencial | Garanta que todos os dados pessoais em dispositivos ou na nuvem estejam criptografados para proteger contra acesso não autorizado.
+**Oculte detalhes pessoais em documentos** | Essencial | Ao compartilhar documentos, oculte detalhes pessoais com retângulos opacos para evitar vazamento de informações.
+**Não presuma que um site é seguro só porque usa `HTTPS`** | Essencial | HTTPS não garante a legitimidade de um site. Verifique URLs e tenha cautela com dados pessoais.
+**Use cartões virtuais ao pagar online** | Opcional | Use cartões virtuais para pagamentos online para proteger seus dados bancários e limitar riscos de transação.
+**Revise permissões de aplicativos** | Opcional | Revise e gerencie regularmente as permissões de aplicativos para garantir que não haja acesso desnecessário a recursos sensíveis do dispositivo.
+**Saia de listas públicas** | Opcional | Remova-se de bancos de dados públicos e listas de marketing para reduzir contatos indesejados e riscos potenciais.
+**Nunca forneça PII adicional ao solicitar remoção** | Opcional | Não forneça informações pessoais adicionais ao solicitar exclusão de serviços de dados para evitar mais coleta de dados.
+**Desative compartilhamento de dados** | Opcional | Muitos apps e serviços vêm com configurações de compartilhamento de dados ativadas por padrão. Desative isso para proteger seus dados de compartilhamento com terceiros.
+**Revise e atualize a privacidade das redes sociais** | Opcional | Verifique e atualize regularmente as configurações das suas redes sociais devido a atualizações frequentes de termos que podem afetar sua privacidade.
+**Compartimentalize** | Avançado | Mantenha separadas diferentes áreas da atividade digital para limitar a exposição de dados em caso de violação.
+**WhoIs Privacy Guard** | Avançado | Use WhoIs Privacy Guard para registros de domínio a fim de proteger suas informações pessoais contra buscas públicas.
+**Use um endereço de encaminhamento** | Avançado | Use uma caixa postal ou endereço de encaminhamento para correspondências para impedir que empresas saibam seu endereço real, adicionando uma camada de proteção de privacidade.
+**Use métodos de pagamento anônimos** | Avançado | Prefira métodos de pagamento anônimos, como criptomoedas, para evitar inserir informações identificáveis online.
 
 
-## Physical Security
+## Segurança Física
 
-Public records often include sensitive personal data (full name, date of birth, phone number, email, address, ethnicity etc), and are gathered from a range of sources (census records, birth/ death/ marriage certificates, voter registrants, marketing information, customer databases, motor vehicle records, professional/ business licenses and all court files in full detail). This sensitive personal information is [easy and legal to access](https://www.consumerreports.org/consumerist/its-creepy-but-not-illegal-for-this-website-to-provide-all-your-public-info-to-anyone/), which raises some [serious privacy concerns](https://privacyrights.org/resources/public-records-internet-privacy-dilemma) (identity theft, personal safety risks/ stalkers, destruction of reputations, dossier society)
+Registros públicos frequentemente incluem dados pessoais sensíveis (nome completo, data de nascimento, número de telefone, email, endereço, etnia etc.) e são reunidos a partir de várias fontes (registros censitários, certidões de nascimento/óbito/casamento, registros de eleitores, informações de marketing, bases de clientes, registros de veículos, licenças profissionais/comerciais e todos os processos judiciais em detalhes completos). Essas informações pessoais sensíveis são [fáceis e legais de acessar](https://www.consumerreports.org/consumerist/its-creepy-but-not-illegal-for-this-website-to-provide-all-your-public-info-to-anyone/), o que levanta [sérias preocupações de privacidade](https://privacyrights.org/resources/public-records-internet-privacy-dilemma) (roubo de identidade, riscos à segurança pessoal/stalkers, destruição de reputações, sociedade de dossiês).
 
-CCTV is one of the major ways that the corporations, individuals and the government tracks your movements. In London, UK the average person is caught on camera about 500 times per day. This network is continuing to grow, and in many cities around the world, facial recognition is being rolled out, meaning the state can know the identity of residents on the footage in real-time.
-Strong authentication, encrypted devices, patched software and anonymous web browsing may be of little use if someone is able to physically compromise you, your devices and your data. This section outlines some basic methods for physical security
+CCTV é uma das principais formas pelas quais corporações, indivíduos e o governo rastreiam seus movimentos. Em Londres, Reino Unido, a pessoa média é filmada cerca de 500 vezes por dia. Essa rede continua crescendo e, em muitas cidades do mundo, reconhecimento facial está sendo implantado, o que significa que o Estado pode saber a identidade dos residentes nas imagens em tempo real.
+Autenticação forte, dispositivos criptografados, software corrigido e navegação web anônima podem servir de pouco se alguém conseguir comprometer fisicamente você, seus dispositivos e seus dados. Esta seção descreve alguns métodos básicos de segurança física.
 
-**Security** | **Priority** | **Details and Hints**
+**Segurança** | **Prioridade** | **Detalhes e dicas**
 --- | --- | ---
-**Destroy Sensitive Documents** | Essential | Shred or redact sensitive documents before disposal to protect against
-identity theft and maintain confidentiality.
+**Destrua documentos sensíveis** | Essencial | Triture ou anonimize documentos sensíveis antes do descarte para proteger contra roubo de identidade e manter a confidencialidade.
 
-**Opt-Out of Public Records** | Essential | Contact people search websites to opt-out from listings that show persona
-information, using guides like Michael Bazzell's Personal Data Removal Workbook.
+**Saia de registros públicos** | Essencial | Entre em contato com sites de busca de pessoas para remover listagens que mostrem informações pessoais, usando guias como o Personal Data Removal Workbook de Michael Bazzell.
 
-**Watermark Documents** | Essential | Add a watermark with the recipient's name and date to digital copies of
-personal documents to trace the source of a breach.
+**Marque documentos com marca d'água** | Essencial | Adicione uma marca d'água com o nome do destinatário e a data a cópias digitais de documentos pessoais para rastrear a origem de um vazamento.
 
-**Don't Reveal Info on Inbound Calls** | Essential | Only share personal data on calls you initiate and verify the recipient's phone number.
+**Não revele informações em chamadas recebidas** | Essencial | Compartilhe dados pessoais apenas em chamadas iniciadas por você e verifique o número de telefone do destinatário.
 
-**Stay Alert** | Essential | Be aware of your surroundings and assess potential risks in new environments.
-**Secure Perimeter** | Essential | Ensure physical security of locations storing personal info devices, minimizing external access and using intrusion detection systems.
-**Physically Secure Devices** | Essential | Use physical security measures like Kensington locks, webcam covers, and privacy screens for devices.
-**Keep Devices Out of Direct Sight** | Essential | Prevent devices from being visible from outside to mitigate risks from lasers and theft.
-**Protect your PIN** | Essential | Shield your PIN entry from onlookers and cameras, and clean touchscreens after use.
-**Check for Skimmers** | Essential | Inspect ATMs and public devices for skimming devices and tampering signs before use.
-**Protect your Home Address** | Optional | Use alternative locations, forwarding addresses, and anonymous payment methods to protect your home address.
-**Use a PIN, Not Biometrics** | Advanced | Prefer PINs over biometrics for device security in situations where legal coercion to unlock devices may occur.
-**Reduce exposure to CCTV** | Advanced | Wear disguises and choose routes with fewer cameras to avoid surveillance.
-**Anti-Facial Recognition Clothing** | Advanced | Wear clothing with patterns that trick facial-recognition technology.
-**Reduce Night Vision Exposure** | Advanced | Use IR light sources or reflective glasses to obstruct night vision cameras.
-**Protect your DNA** | Advanced | Avoid sharing DNA with heritage websites and be cautious about leaving DNA traces.
-
+**Mantenha-se alerta** | Essencial | Esteja ciente do seu entorno e avalie riscos potenciais em novos ambientes.
+**Proteja o perímetro** | Essencial | Garanta a segurança física de locais que armazenam dispositivos com informações pessoais, minimizando acesso externo e usando sistemas de detecção de intrusão.
+**Proteja fisicamente os dispositivos** | Essencial | Use medidas de segurança física, como Kensington locks, tampas para webcam e telas de privacidade nos dispositivos.
+**Mantenha dispositivos fora da linha direta de visão** | Essencial | Evite que dispositivos fiquem visíveis do lado de fora para mitigar riscos de lasers e roubo.
+**Proteja seu PIN** | Essencial | Cubra a digitação do seu PIN contra curiosos e câmeras e limpe telas sensíveis ao toque após o uso.
+**Verifique skimmers** | Essencial | Inspecione caixas eletrônicos e dispositivos públicos em busca de skimmers e sinais de adulteração antes do uso.
+**Proteja seu endereço residencial** | Opcional | Use locais alternativos, endereços de encaminhamento e métodos de pagamento anônimos para proteger seu endereço residencial.
+**Use PIN, não biometria** | Avançado | Prefira PINs à biometria para segurança de dispositivos em situações em que possa haver coerção legal para desbloqueá-los.
+**Reduza exposição a CCTV** | Avançado | Use disfarces e escolha rotas com menos câmeras para evitar vigilância.
+**Roupas anti-reconhecimento facial** | Avançado | Use roupas com padrões que enganem tecnologia de reconhecimento facial.
+**Reduza a exposição à visão noturna** | Avançado | Use fontes de luz IR ou óculos refletivos para obstruir câmeras de visão noturna.
+**Proteja seu DNA** | Avançado | Evite compartilhar DNA com sites de ancestralidade e tenha cautela ao deixar rastros de DNA.
 
 
 <!-- checklist-end -->
 
 ----
 
-#### There's an interactive version!
-- [Digital Defense](https://digital-defense.io) - View details, check items of, and track your progress
+#### Existe uma versão interativa!
+- [Digital Defense](https://digital-defense.io) - Veja detalhes, marque itens e acompanhe seu progresso
 
-#### Other Awesome Security Lists
+#### Outras listas incríveis de segurança
 - @sbilly/[awesome-security](https://github.com/sbilly/awesome-security)
 - @0x4D31/[awesome-threat-detection](https://github.com/0x4D31/awesome-threat-detection)
 - @hslatman/[awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence)
@@ -495,29 +491,29 @@ personal documents to trace the source of a breach.
 - @Zbetcheckin/[security_list](https://github.com/zbetcheckin/Security_list)
 - Michael Horowitz / [defensivecomputingchecklist.com](https://defensivecomputingchecklist.com/)
 
-[See More](/4_Privacy_And_Security_Links.md#other-github-security-lists)
+[Ver mais](/4_Privacy_And_Security_Links.md#other-github-security-lists)
 
 ----
 
-## Notes
+## Notas
 
-*Thanks for visiting, hope you found something useful here :) Contributions are welcome, and much appreciated - to propose an edit [raise an issue](https://github.com/Lissy93/personal-security-checklist/issues/new/choose), or [open a PR](https://github.com/Lissy93/personal-security-checklist/pull/new/master). See: [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md).*
+*Obrigado pela visita, espero que você tenha encontrado algo útil aqui :) Contribuições são bem-vindas e muito apreciadas — para propor uma edição, [abra uma issue](https://github.com/Lissy93/personal-security-checklist/issues/new/choose) ou [abra um PR](https://github.com/Lissy93/personal-security-checklist/pull/new/master). Veja: [`CONTRIBUTING.md`](/.github/CONTRIBUTING.md).*
 
-*Disclaimer: This is not an exhaustive list, and aims only to be taken as guide.*
+*Aviso: esta não é uma lista exaustiva e pretende apenas servir como guia.*
 
-*Licensed under [Creative Commons, CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), © [Alicia Sykes](https://aliciasykes.com) 2020*
+*Licenciado sob [Creative Commons, CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), © [Alicia Sykes](https://aliciasykes.com) 2020*
 
 [![Attribution 4.0 International](https://licensebuttons.net/l/by/3.0/88x31.png)](/LICENSE.md)
 
 ---
 
-Help support the continued development of this project 💖
+Ajude a apoiar o desenvolvimento contínuo deste projeto 💖
 
 [![Sponsor Lissy93 on GitHub](https://img.shields.io/badge/Sponsor_on_GitHub-Lissy93-%23ff4dda?style=for-the-badge&logo=githubsponsors&logoColor=ff4dda)](https://github.com/sponsors/Lissy93)
 
 ----
 
-Found this helpful? Consider sharing it with others, to help them also improve their digital security 😇
+Achou isso útil? Considere compartilhar com outras pessoas para ajudá-las também a melhorar sua segurança digital 😇
 
 [![Share on Twitter](https://img.shields.io/badge/Share-Twitter-17a2f3?style=for-the-badge&logo=Twitter)](http://twitter.com/share?text=Check%20out%20the%20Personal%20Cyber%20Security%20Checklist-%20an%20ultimate%20list%20of%20tips%20for%20protecting%20your%20digital%20security%20and%20privacy%20in%202020%2C%20with%20%40Lissy_Sykes%20%F0%9F%94%90%20%20%F0%9F%9A%80&url=https://github.com/Lissy93/personal-security-checklist)
 [![Share on LinkedIn](https://img.shields.io/badge/Share-LinkedIn-0077b5?style=for-the-badge&logo=LinkedIn)](
@@ -527,13 +523,13 @@ http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/pe
 
 ---
 
-Get in touch 📬
+Entre em contato 📬
 
 [![Alicia Sykes on Twitter](https://img.shields.io/twitter/follow/Lissy_Sykes?style=social&logo=twitter)](https://twitter.com/Lissy_Sykes)
 [![Alicia Sykes on GitHub](https://img.shields.io/github/followers/lissy93?label=Lissy93&style=social)](https://github.com/Lissy93)
 [![Alicia Sykes on Mastodon](https://img.shields.io/mastodon/follow/1032965?domain=https%3A%2F%2Fmastodon.social)](https://mastodon.social/web/accounts/1032965)
 [![Alicia Sykes on Keybase](https://img.shields.io/badge/aliciasykes--lightgrey?style=social&logo=Keybase)](https://keybase.io/aliciasykes)
-[![Alicia Sykes's PGP](https://img.shields.io/badge/PGP--lightgrey?style=social&logo=Let%E2%80%99s%20Encrypt)](https://keybase.io/aliciasykes/pgp_keys.asc)
-[![Alicia Sykes's Website](https://img.shields.io/badge/aliciasykes.com--lightgrey?style=social&logo=Tencent%20QQ)](https://aliciasykes.com)
+[![PGP da Alicia Sykes](https://img.shields.io/badge/PGP--lightgrey?style=social&logo=Let%E2%80%99s%20Encrypt)](https://keybase.io/aliciasykes/pgp_keys.asc)
+[![Site da Alicia Sykes](https://img.shields.io/badge/aliciasykes.com--lightgrey?style=social&logo=Tencent%20QQ)](https://aliciasykes.com)
 
 ---
