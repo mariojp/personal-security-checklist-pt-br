@@ -11,6 +11,7 @@ import tailwind from './styles/tailwind.css?inline';
 import "./styles/global.css";
 
 export default component$(() => {
+  const baseUrl = import.meta.env.BASE_URL;
 
   useStyles$(tailwind);
   /**
@@ -24,7 +25,7 @@ export default component$(() => {
     <QwikCityProvider>
       <head>
         <meta charSet="utf-8" />
-        <link rel="manifest" href="/manifest.json" />
+        <link rel="manifest" href={`${baseUrl}manifest.json`} />
         <RouterHead />
         <ServiceWorkerRegister />
       </head>
