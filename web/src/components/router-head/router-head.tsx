@@ -5,6 +5,8 @@ import { component$ } from "@builder.io/qwik";
 export const RouterHead = component$(() => {
   const head = useDocumentHead();
   const loc = useLocation();
+  const baseUrl = import.meta.env.BASE_URL;
+  const bannerUrl = new URL(`${baseUrl}banner.png`, loc.url.origin).toString();
 
   return (
     <>
@@ -15,24 +17,24 @@ export const RouterHead = component$(() => {
       {/* Site config */}
       <link rel="canonical" href={loc.url.href} />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="icon" type="image/png" href="/favicon.png" />
-      <link rel="apple-touch-icon" href="/favicon.png" />
+      <link rel="icon" type="image/png" href={`${baseUrl}favicon.png`} />
+      <link rel="apple-touch-icon" href={`${baseUrl}favicon.png`} />
       <meta name="theme-color" content="#6419e6" />
-      <link rel="manifest" href="/manifest.json" />
+      <link rel="manifest" href={`${baseUrl}manifest.json`} />
 
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
       <meta property="og:url" content={loc.url.href} />
       <meta property="og:title" content="Digital Defense - The ultimate personal security checklist to secure your digital life" />
       <meta property="og:description" content="The ultimate personal security checklist to secure your digital life" />
-      <meta property="og:image" content="/banner.png" />
+      <meta property="og:image" content={bannerUrl} />
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:url" content={loc.url.href} />
       <meta name="twitter:title" content="Digital Defense - The ultimate personal security checklist to secure your digital life" />
       <meta name="twitter:description" content="The ultimate personal security checklist to secure your digital life" />
-      <meta name="twitter:image" content="/banner.png" />
+      <meta name="twitter:image" content={bannerUrl} />
 
       {head.meta.map((m) => (
         <meta key={m.key} {...m} />
