@@ -24,6 +24,10 @@ jobs:
         working-directory: web
         run: yarn install --frozen-lockfile
 
+      - name: Build client
+        working-directory: web
+        run: yarn build.client
+
       - name: Build static site
         working-directory: web
         run: yarn build.static
